@@ -1,0 +1,3052 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="copyright" xml:space="preserve">
+    <value>Copyright 2014 PGi</value>
+  </data>
+  <data name="error_invalid_credentials" xml:space="preserve">
+    <value>Invalid User Name or Password</value>
+  </data>
+  <data name="error_unexpected_result" xml:space="preserve">
+    <value>An unexpected result occurred. Please contact your System Administrator.</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="please_correct_the_following" xml:space="preserve">
+    <value>Please correct the following:</value>
+  </data>
+  <data name="signin" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="username" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="create_conference" xml:space="preserve">
+    <value>Create Conference</value>
+  </data>
+  <data name="igloo" xml:space="preserve">
+    <value>iGLOO</value>
+  </data>
+  <data name="i_global_operator_assisted_scheduling_platform" xml:space="preserve">
+    <value>i GLObal Operator assisted scheduling platform</value>
+  </data>
+  <data name="main_menu" xml:space="preserve">
+    <value>Main Menu</value>
+  </data>
+  <data name="pgi" xml:space="preserve">
+    <value>PGi</value>
+  </data>
+  <data name="welcome_to_igloo" xml:space="preserve">
+    <value>Welcome to iGLOO</value>
+  </data>
+  <data name="duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="end" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="validation_message_accept" xml:space="preserve">
+    <value>Please enter a value with a valid extension</value>
+  </data>
+  <data name="validation_message_creditcard" xml:space="preserve">
+    <value>Please enter a valid credit card number</value>
+  </data>
+  <data name="validation_message_date" xml:space="preserve">
+    <value>Please enter a valid date</value>
+  </data>
+  <data name="validation_message_date_iso" xml:space="preserve">
+    <value>Please enter a valid date (ISO)</value>
+  </data>
+  <data name="validation_message_digits" xml:space="preserve">
+    <value>Please enter only digits</value>
+  </data>
+  <data name="validation_message_email" xml:space="preserve">
+    <value>Please enter a valid email address</value>
+  </data>
+  <data name="validation_message_equalto" xml:space="preserve">
+    <value>Please enter the same value again</value>
+  </data>
+  <data name="validation_message_max" xml:space="preserve">
+    <value>Please enter a value less than or equal to {0}</value>
+  </data>
+  <data name="validation_message_maxlength" xml:space="preserve">
+    <value>Please enter no more than {0} characters</value>
+  </data>
+  <data name="validation_message_min" xml:space="preserve">
+    <value>Please enter a value greater than or equal to {0}</value>
+  </data>
+  <data name="validation_message_minlength" xml:space="preserve">
+    <value>Please enter at least {0} characters</value>
+  </data>
+  <data name="validation_message_number" xml:space="preserve">
+    <value>Please enter a valid number</value>
+  </data>
+  <data name="validation_message_range" xml:space="preserve">
+    <value>Please enter a value between {0} and {1}</value>
+  </data>
+  <data name="validation_message_rangelength" xml:space="preserve">
+    <value>Please enter a value between {0} and {1} characters long</value>
+  </data>
+  <data name="validation_message_remote" xml:space="preserve">
+    <value>Please fix this field</value>
+  </data>
+  <data name="validation_message_required" xml:space="preserve">
+    <value>This field is required</value>
+  </data>
+  <data name="validation_message_url" xml:space="preserve">
+    <value>Please enter a valid URL</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="spanish" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="time_zone" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="chinese" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="continue_" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="dates_are_in_the_past" xml:space="preserve">
+    <value>One or both of the dates entered for this conference occurs in the past.</value>
+  </data>
+  <data name="name_on_entry" xml:space="preserve">
+    <value>Name On Entry</value>
+  </data>
+  <data name="operator_answered" xml:space="preserve">
+    <value>Operator Answered - Event</value>
+  </data>
+  <data name="passcode_entry" xml:space="preserve">
+    <value>Passcode Entry</value>
+  </data>
+  <data name="pin_entry" xml:space="preserve">
+    <value>PIN Entry</value>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="please_provide_a_title" xml:space="preserve">
+    <value>Please provide a title</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="select_location" xml:space="preserve">
+    <value>Select Location</value>
+  </data>
+  <data name="client_id" xml:space="preserve">
+    <value>Client Id</value>
+  </data>
+  <data name="company_id" xml:space="preserve">
+    <value>Company Id</value>
+  </data>
+  <data name="company_name" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="corporate_customer_id" xml:space="preserve">
+    <value>Corporate Customer Id</value>
+  </data>
+  <data name="enterprise_id" xml:space="preserve">
+    <value>Enterprise Id</value>
+  </data>
+  <data name="clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="client_search" xml:space="preserve">
+    <value>Client Search</value>
+  </data>
+  <data name="company_search" xml:space="preserve">
+    <value>Company Search</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="conference" xml:space="preserve">
+    <value>Conference</value>
+  </data>
+  <data name="conference_id" xml:space="preserve">
+    <value>Conference Id</value>
+  </data>
+  <data name="first" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="last" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="client_name" xml:space="preserve">
+    <value>Client Name</value>
+  </data>
+  <data name="first_name" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="last_name" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="unsaved_changes" xml:space="preserve">
+    <value>Unsaved Changes</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="edit_conference" xml:space="preserve">
+    <value>Edit Conference</value>
+  </data>
+  <data name="view_conference" xml:space="preserve">
+    <value>View Conference</value>
+  </data>
+  <data name="client" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="select_search_criteria" xml:space="preserve">
+    <value>Select Search Criteria</value>
+  </data>
+  <data name="create_conference_in_new_tab" xml:space="preserve">
+    <value>Create Conference In New Tab</value>
+  </data>
+  <data name="new_conference" xml:space="preserve">
+    <value>New Conference</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="no_search_results" xml:space="preserve">
+    <value>The search did not find any results.</value>
+  </data>
+  <data name="moderator" xml:space="preserve">
+    <value>Moderator</value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="choose_company" xml:space="preserve">
+    <value>Choose Company</value>
+  </data>
+  <data name="choose_moderator" xml:space="preserve">
+    <value>Choose Moderator</value>
+  </data>
+  <data name="conference_has_been_created" xml:space="preserve">
+    <value>Conference {0} has been created.</value>
+  </data>
+  <data name="country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="please_select" xml:space="preserve">
+    <value>Please Select...</value>
+  </data>
+  <data name="ports" xml:space="preserve">
+    <value>Ports</value>
+  </data>
+  <data name="port_assignment" xml:space="preserve">
+    <value>Port Assignment</value>
+  </data>
+  <data name="port_assignment_by_country" xml:space="preserve">
+    <value>Port Assignment by Country</value>
+  </data>
+  <data name="port_assignment_by_region" xml:space="preserve">
+    <value>Port Assignment by Region</value>
+  </data>
+  <data name="region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="change_history" xml:space="preserve">
+    <value>Change History</value>
+  </data>
+  <data name="conference_created" xml:space="preserve">
+    <value>Conference Created</value>
+  </data>
+  <data name="conference_history" xml:space="preserve">
+    <value>Conference History</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="value_of_added" xml:space="preserve">
+    <value>Entry for {0} value of {1} added.</value>
+  </data>
+  <data name="value_of_changed_from" xml:space="preserve">
+    <value>Value of {0} changed from {1} to {2}.</value>
+  </data>
+  <data name="value_of_removed" xml:space="preserve">
+    <value>Entry for {0} value of {1} removed.</value>
+  </data>
+  <data name="results" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="change_date" xml:space="preserve">
+    <value>Change Date</value>
+  </data>
+  <data name="choose_scheduler" xml:space="preserve">
+    <value>Choose Scheduler</value>
+  </data>
+  <data name="scheduler" xml:space="preserve">
+    <value>Scheduler</value>
+  </data>
+  <data name="additional_contact" xml:space="preserve">
+    <value>Additional Contact</value>
+  </data>
+  <data name="choose_additional" xml:space="preserve">
+    <value>Choose Additional</value>
+  </data>
+  <data name="contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="moderator_scheduler_additional" xml:space="preserve">
+    <value>Moderator, Scheduler or Additional Contact</value>
+  </data>
+  <data name="moderator_scheduler_additional_id" xml:space="preserve">
+    <value>Moderator, Scheduler or Additional Contact Id</value>
+  </data>
+  <data name="moderator_scheduler_additional_name" xml:space="preserve">
+    <value>Moderator, Scheduler or Additional Contact Name</value>
+  </data>
+  <data name="conference_does_not_exist" xml:space="preserve">
+    <value>Conference {0} does not exist.</value>
+  </data>
+  <data name="conference_has_been_updated" xml:space="preserve">
+    <value>Conference {0} has been updated.</value>
+  </data>
+  <data name="location_must_be_unique" xml:space="preserve">
+    <value>Location must be unique.</value>
+  </data>
+  <data name="schedule" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="unauthorized_request_please_login_again" xml:space="preserve">
+    <value>Unauthorized request please login again</value>
+  </data>
+  <data name="create" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="city" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="country_code" xml:space="preserve">
+    <value>Country Code</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="postal_code" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="region_code" xml:space="preserve">
+    <value>Region Code</value>
+  </data>
+  <data name="timezone_code" xml:space="preserve">
+    <value>Timezone Code</value>
+  </data>
+  <data name="utc" xml:space="preserve">
+    <value>UTC</value>
+  </data>
+  <data name="select_a_default_timezone" xml:space="preserve">
+    <value>Select a Default Timezone</value>
+  </data>
+  <data name="administration" xml:space="preserve">
+    <value>Administration</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="delete_docs" xml:space="preserve">
+    <value>Delete Docs</value>
+  </data>
+  <data name="documents" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="documents_deleted" xml:space="preserve">
+    <value>All documents from the domain have been deleted</value>
+  </data>
+  <data name="domain_deleted" xml:space="preserve">
+    <value>Domain has been deleted</value>
+  </data>
+  <data name="domain_indexing_started" xml:space="preserve">
+    <value>Domain indexing has started</value>
+  </data>
+  <data name="domain_name" xml:space="preserve">
+    <value>Domain Name</value>
+  </data>
+  <data name="indexes" xml:space="preserve">
+    <value>Indexes</value>
+  </data>
+  <data name="rebuild" xml:space="preserve">
+    <value>Rebuild</value>
+  </data>
+  <data name="rebuild_all" xml:space="preserve">
+    <value>Rebuild All</value>
+  </data>
+  <data name="rebuild_domain_started" xml:space="preserve">
+    <value>Rebuilding the entire domain has started</value>
+  </data>
+  <data name="reindex" xml:space="preserve">
+    <value>Reindex</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="deleted" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="needs_indexing" xml:space="preserve">
+    <value>Needs Indexing</value>
+  </data>
+  <data name="not_found" xml:space="preserve">
+    <value>Not Found</value>
+  </data>
+  <data name="processing" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="sync_documents" xml:space="preserve">
+    <value>Sync Docs</value>
+  </data>
+  <data name="locations_by_country" xml:space="preserve">
+    <value>Locations by Country</value>
+  </data>
+  <data name="locations_by_region" xml:space="preserve">
+    <value>Locations by Region</value>
+  </data>
+  <data name="cloud_search" xml:space="preserve">
+    <value>Cloud Search</value>
+  </data>
+  <data name="delete_domain" xml:space="preserve">
+    <value>Delete Domain</value>
+  </data>
+  <data name="selected_company" xml:space="preserve">
+    <value>Selected Company</value>
+  </data>
+  <data name="call_series" xml:space="preserve">
+    <value>Call Series</value>
+  </data>
+  <data name="daily" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="monthly" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="port_assignment_location" xml:space="preserve">
+    <value>Port Assignment Location</value>
+  </data>
+  <data name="weekly" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="yearly" xml:space="preserve">
+    <value>Yearly</value>
+  </data>
+  <data name="day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="day_s" xml:space="preserve">
+    <value>day(s)</value>
+  </data>
+  <data name="end_after" xml:space="preserve">
+    <value>End after</value>
+  </data>
+  <data name="end_by" xml:space="preserve">
+    <value>End by</value>
+  </data>
+  <data name="every" xml:space="preserve">
+    <value>Every</value>
+  </data>
+  <data name="every_weekday" xml:space="preserve">
+    <value>Every Weekday</value>
+  </data>
+  <data name="friday" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="monday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="months" xml:space="preserve">
+    <value>month(s)</value>
+  </data>
+  <data name="occurences" xml:space="preserve">
+    <value>occurences</value>
+  </data>
+  <data name="of_every" xml:space="preserve">
+    <value>of every</value>
+  </data>
+  <data name="recurrence" xml:space="preserve">
+    <value>Recurrence</value>
+  </data>
+  <data name="saturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="sunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="the" xml:space="preserve">
+    <value>The</value>
+  </data>
+  <data name="thursday" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="wednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="weeks_on" xml:space="preserve">
+    <value>week(s) on</value>
+  </data>
+  <data name="participants" xml:space="preserve">
+    <value>Participants</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="phone_number" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="fourth" xml:space="preserve">
+    <value>Fourth</value>
+  </data>
+  <data name="second" xml:space="preserve">
+    <value>Second</value>
+  </data>
+  <data name="third" xml:space="preserve">
+    <value>Third</value>
+  </data>
+  <data name="do_you_want_to_delete_this_row" xml:space="preserve">
+    <value>Do you want to delete this row?</value>
+  </data>
+  <data name="upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="incorrect_file_type" xml:space="preserve">
+    <value>Incorrect file type</value>
+  </data>
+  <data name="existing_n" xml:space="preserve">
+    <value>Existing ({0})</value>
+  </data>
+  <data name="new_n" xml:space="preserve">
+    <value>New ({0})</value>
+  </data>
+  <data name="no_instances" xml:space="preserve">
+    <value>No Instances</value>
+  </data>
+  <data name="create_date" xml:space="preserve">
+    <value>Create Date</value>
+  </data>
+  <data name="select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="enter_generate_passcode" xml:space="preserve">
+    <value>Enter or generate passcode</value>
+  </data>
+  <data name="moderator_passcode" xml:space="preserve">
+    <value>Moderator Passcode</value>
+  </data>
+  <data name="participant_passcode" xml:space="preserve">
+    <value>Participant Passcode</value>
+  </data>
+  <data name="error_moderator_passcode_in_use" xml:space="preserve">
+    <value>The moderator passcode is already in use by another conference.</value>
+  </data>
+  <data name="error_participant_passcode_in_use" xml:space="preserve">
+    <value>The participant passcode is already in use by another conference.</value>
+  </data>
+  <data name="error_passcode_too_similar" xml:space="preserve">
+    <value>The passcodes are too similar to each other.</value>
+  </data>
+  <data name="passcode" xml:space="preserve">
+    <value>Passcode</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="dial_out_list" xml:space="preserve">
+    <value>Dial Out List</value>
+  </data>
+  <data name="upload_excel" xml:space="preserve">
+    <value>Upload Excel</value>
+  </data>
+  <data name="records_found" xml:space="preserve">
+    <value>Records Found</value>
+  </data>
+  <data name="conferences_will_be_created_msg" xml:space="preserve">
+    <value>The following additional conferences will be created:</value>
+  </data>
+  <data name="overwrite_participants_warning" xml:space="preserve">
+    <value>You are about to overwrite the current participants list. Do you wish to continue?</value>
+  </data>
+  <data name="conferences_will_be_updated_msg" xml:space="preserve">
+    <value>The following additional conferences will be updated:</value>
+  </data>
+  <data name="confirm_save" xml:space="preserve">
+    <value>Confirm Save</value>
+  </data>
+  <data name="would_you_like_to_continue" xml:space="preserve">
+    <value>Would you like to continue?</value>
+  </data>
+  <data name="clone_conference" xml:space="preserve">
+    <value>Clone Conference</value>
+  </data>
+  <data name="cloud_search_size" xml:space="preserve">
+    <value>Cloud Search Domain Size</value>
+  </data>
+  <data name="confirm_delete_domain" xml:space="preserve">
+    <value>Deleting the domain will cause search to become unavailable until the domain is rebuilt. Are you sure you want to delete the domain?</value>
+  </data>
+  <data name="confirm_rebuild_domain" xml:space="preserve">
+    <value>Rebuilding the domain can be a lengthy process and search will be unavailable during this time. Are you sure you want to rebuild the domain?</value>
+  </data>
+  <data name="document_endpoint" xml:space="preserve">
+    <value>Document Endpoint</value>
+  </data>
+  <data name="dynamodb_size" xml:space="preserve">
+    <value>DynamoDB Size (MB)</value>
+  </data>
+  <data name="index_fields" xml:space="preserve">
+    <value>Index Fields</value>
+  </data>
+  <data name="saved_conferences" xml:space="preserve">
+    <value>Saved Conferences</value>
+  </data>
+  <data name="searchable_documents" xml:space="preserve">
+    <value>Searchable Documents</value>
+  </data>
+  <data name="search_endpoint" xml:space="preserve">
+    <value>Search Endpoint</value>
+  </data>
+  <data name="electronic" xml:space="preserve">
+    <value>Electronic</value>
+  </data>
+  <data name="enter_any_special_instructions" xml:space="preserve">
+    <value>Enter any special instructions</value>
+  </data>
+  <data name="open_lines" xml:space="preserve">
+    <value>Open Lines</value>
+  </data>
+  <data name="question_and_answer" xml:space="preserve">
+    <value>Question &amp; Answer</value>
+  </data>
+  <data name="recurrence_pattern" xml:space="preserve">
+    <value>Recurrence Pattern</value>
+  </data>
+  <data name="special_instructions" xml:space="preserve">
+    <value>Special Instructions</value>
+  </data>
+  <data name="commline" xml:space="preserve">
+    <value>Commline</value>
+  </data>
+  <data name="custom_priority" xml:space="preserve">
+    <value>Custom Priority</value>
+  </data>
+  <data name="do_we_have_to_screen_participants" xml:space="preserve">
+    <value>Do we have to screen participants?</value>
+  </data>
+  <data name="follow_up_questions_allowed" xml:space="preserve">
+    <value>Follow-up questions allowed?</value>
+  </data>
+  <data name="host_controls" xml:space="preserve">
+    <value>Host Controls</value>
+  </data>
+  <data name="is_there_an_onsite_audience" xml:space="preserve">
+    <value>Is there an onsite audience?</value>
+  </data>
+  <data name="none" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="priority" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="priority_list" xml:space="preserve">
+    <value>Priority List</value>
+  </data>
+  <data name="not_prioritized" xml:space="preserve">
+    <value>Not Prioritized</value>
+  </data>
+  <data name="prioritized" xml:space="preserve">
+    <value>Prioritized</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="recording" xml:space="preserve">
+    <value>Recording</value>
+  </data>
+  <data name="archive_days" xml:space="preserve">
+    <value>Archive Days</value>
+  </data>
+  <data name="editing" xml:space="preserve">
+    <value>Editing</value>
+  </data>
+  <data name="extension" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+  <data name="format" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="international_prefix" xml:space="preserve">
+    <value>Intl Prefix</value>
+  </data>
+  <data name="quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="recipient_name" xml:space="preserve">
+    <value>Recipient Name</value>
+  </data>
+  <data name="shipping_method" xml:space="preserve">
+    <value>Shipping Method</value>
+  </data>
+  <data name="state" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="zip" xml:space="preserve">
+    <value>Zip</value>
+  </data>
+  <data name="audio_file" xml:space="preserve">
+    <value>Audio File</value>
+  </data>
+  <data name="cd" xml:space="preserve">
+    <value>CD</value>
+  </data>
+  <data name="cda" xml:space="preserve">
+    <value>CDA</value>
+  </data>
+  <data name="fine" xml:space="preserve">
+    <value>Fine</value>
+  </data>
+  <data name="five_day" xml:space="preserve">
+    <value>5 Day</value>
+  </data>
+  <data name="ground" xml:space="preserve">
+    <value>Ground</value>
+  </data>
+  <data name="keep_on_file" xml:space="preserve">
+    <value>Keep On File</value>
+  </data>
+  <data name="mp3" xml:space="preserve">
+    <value>MP3</value>
+  </data>
+  <data name="priority_next_day" xml:space="preserve">
+    <value>Priority Next Day (A.M.)</value>
+  </data>
+  <data name="standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="standard_next_day" xml:space="preserve">
+    <value>Standard Next Day</value>
+  </data>
+  <data name="three_day" xml:space="preserve">
+    <value>3 Day</value>
+  </data>
+  <data name="three_five_days" xml:space="preserve">
+    <value>3 to 5 Days</value>
+  </data>
+  <data name="truespeech" xml:space="preserve">
+    <value>TrueSpeech</value>
+  </data>
+  <data name="twenety_four_hours" xml:space="preserve">
+    <value>24 Hours</value>
+  </data>
+  <data name="two_day" xml:space="preserve">
+    <value>2 Day</value>
+  </data>
+  <data name="vision_cast" xml:space="preserve">
+    <value>Vision Cast</value>
+  </data>
+  <data name="wave" xml:space="preserve">
+    <value>Wave</value>
+  </data>
+  <data name="comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="enter_any_comments" xml:space="preserve">
+    <value>Enter any comments</value>
+  </data>
+  <data name="value_added" xml:space="preserve">
+    <value>Entry for {0} added.</value>
+  </data>
+  <data name="value_removed" xml:space="preserve">
+    <value>Entry for {0} removed.</value>
+  </data>
+  <data name="affiliation" xml:space="preserve">
+    <value>Affiliation</value>
+  </data>
+  <data name="capture_information" xml:space="preserve">
+    <value>Capture Information</value>
+  </data>
+  <data name="di_and_dc_times" xml:space="preserve">
+    <value>DI and DC times</value>
+  </data>
+  <data name="employees_only" xml:space="preserve">
+    <value>Employees Only</value>
+  </data>
+  <data name="enter_unauthorized_caller_script" xml:space="preserve">
+    <value>Enter unauthorized caller script</value>
+  </data>
+  <data name="fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="job_title" xml:space="preserve">
+    <value>Job Title</value>
+  </data>
+  <data name="media_allowed" xml:space="preserve">
+    <value>Media Allowed</value>
+  </data>
+  <data name="no" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="number_sitting_in" xml:space="preserve">
+    <value>Number sitting in</value>
+  </data>
+  <data name="id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="participant_list_on_portal" xml:space="preserve">
+    <value>Participant list on Portal</value>
+  </data>
+  <data name="place_in_open_conference" xml:space="preserve">
+    <value>Place In Open Conference (PIOC)</value>
+  </data>
+  <data name="protocols" xml:space="preserve">
+    <value>Protocols</value>
+  </data>
+  <data name="substitutes_permitted" xml:space="preserve">
+    <value>Substitutes permitted</value>
+  </data>
+  <data name="unauthorized_caller_script" xml:space="preserve">
+    <value>Unauthorized caller script</value>
+  </data>
+  <data name="verify_unlisted_name_with" xml:space="preserve">
+    <value>Verify unlisted name with</value>
+  </data>
+  <data name="yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="enter_custom_information" xml:space="preserve">
+    <value>Enter custom information</value>
+  </data>
+  <data name="enter_capture_options_space_for_all" xml:space="preserve">
+    <value>Enter capture options (space bar for all)</value>
+  </data>
+  <data name="no_capture_information_selected" xml:space="preserve">
+    <value>No capture information selected</value>
+  </data>
+  <data name="error_required_fields_missing" xml:space="preserve">
+    <value>There are some required fields missing.</value>
+  </data>
+  <data name="turn_around_time" xml:space="preserve">
+    <value>Turn Around Time</value>
+  </data>
+  <data name="additional_options" xml:space="preserve">
+    <value>Additional Options</value>
+  </data>
+  <data name="allow_duplicate_pins" xml:space="preserve">
+    <value>Allow duplicate PINs</value>
+  </data>
+  <data name="available_if_name_on_entry_not_used" xml:space="preserve">
+    <value>available if name on entry not used</value>
+  </data>
+  <data name="bypass_allowed" xml:space="preserve">
+    <value>Bypass allowed</value>
+  </data>
+  <data name="cost_center_number" xml:space="preserve">
+    <value>Cost Center Number</value>
+  </data>
+  <data name="employee_number" xml:space="preserve">
+    <value>Employee ID</value>
+  </data>
+  <data name="geographic_region" xml:space="preserve">
+    <value>Geographic Region</value>
+  </data>
+  <data name="g_e_id" xml:space="preserve">
+    <value>G E ID</value>
+  </data>
+  <data name="market_center_location" xml:space="preserve">
+    <value>Market Center Location</value>
+  </data>
+  <data name="no_pins" xml:space="preserve">
+    <value>No PINs</value>
+  </data>
+  <data name="n_b_k_id" xml:space="preserve">
+    <value>N B K ID</value>
+  </data>
+  <data name="office_code" xml:space="preserve">
+    <value>Office Code</value>
+  </data>
+  <data name="office_location" xml:space="preserve">
+    <value>Office Location/Branch</value>
+  </data>
+  <data name="pce_specific" xml:space="preserve">
+    <value>PCE Specific</value>
+  </data>
+  <data name="pin_capture" xml:space="preserve">
+    <value>PIN Capture</value>
+  </data>
+  <data name="pin_lookup" xml:space="preserve">
+    <value>PIN Lookup</value>
+  </data>
+  <data name="pin_number" xml:space="preserve">
+    <value>Pin Number</value>
+  </data>
+  <data name="pin_validate" xml:space="preserve">
+    <value>PIN Validate</value>
+  </data>
+  <data name="prompt_caller_for_number_sitting_in" xml:space="preserve">
+    <value>Prompt caller for number sitting in</value>
+  </data>
+  <data name="prompt_for_pin_on_dialout" xml:space="preserve">
+    <value>Prompt for PIN on Dial Out</value>
+  </data>
+  <data name="sales_rep_name" xml:space="preserve">
+    <value>Sales Rep Name</value>
+  </data>
+  <data name="s_o_e_id" xml:space="preserve">
+    <value>S O E ID</value>
+  </data>
+  <data name="zip_code" xml:space="preserve">
+    <value>Zip Code</value>
+  </data>
+  <data name="pin_options" xml:space="preserve">
+    <value>PIN Options</value>
+  </data>
+  <data name="enter_additional_options_space_for_all" xml:space="preserve">
+    <value>Enter additional options (space bar for all)</value>
+  </data>
+  <data name="maximum_four" xml:space="preserve">
+    <value>Maximum 4</value>
+  </data>
+  <data name="no_additional_options_selected" xml:space="preserve">
+    <value>No additional options selected</value>
+  </data>
+  <data name="conference_pin_lookup_reminder" xml:space="preserve">
+    <value>Your conference has "PIN lookup" or "PIN Validate". Please remeber to upload your PIN list, if necessary.</value>
+  </data>
+  <data name="twenty_four_hours" xml:space="preserve">
+    <value>24 Hours</value>
+  </data>
+  <data name="selected_options" xml:space="preserve">
+    <value>Selected options</value>
+  </data>
+  <data name="verify_name" xml:space="preserve">
+    <value>Verify Name</value>
+  </data>
+  <data name="verify_phone" xml:space="preserve">
+    <value>Verify Phone</value>
+  </data>
+  <data name="verify_unlisted" xml:space="preserve">
+    <value>Verify Unlisted</value>
+  </data>
+  <data name="conference_update" xml:space="preserve">
+    <value>Conference Update</value>
+  </data>
+  <data name="coordination_with_live_event" xml:space="preserve">
+    <value>Coordination with Live Event</value>
+  </data>
+  <data name="emergency_only" xml:space="preserve">
+    <value>Emergency Only</value>
+  </data>
+  <data name="enter_purpose_space_for_all" xml:space="preserve">
+    <value>Enter purpose (space for all)</value>
+  </data>
+  <data name="established_minutes_before" xml:space="preserve">
+    <value>Established (minutes before)</value>
+  </data>
+  <data name="feedline" xml:space="preserve">
+    <value>Feed Line</value>
+  </data>
+  <data name="other_see_special_instructions" xml:space="preserve">
+    <value>Other: See Special Instructions</value>
+  </data>
+  <data name="phone_type" xml:space="preserve">
+    <value>Phone Type</value>
+  </data>
+  <data name="prioritizing_qa" xml:space="preserve">
+    <value>Prioritizing Q&amp;A</value>
+  </data>
+  <data name="troubleshooting" xml:space="preserve">
+    <value>Troubleshooting</value>
+  </data>
+  <data name="verification_of_participants" xml:space="preserve">
+    <value>Verification of Participants</value>
+  </data>
+  <data name="add_custom_list" xml:space="preserve">
+    <value>Add Custom List</value>
+  </data>
+  <data name="custom_list" xml:space="preserve">
+    <value>Custom List</value>
+  </data>
+  <data name="custom_lists" xml:space="preserve">
+    <value>Custom Lists</value>
+  </data>
+  <data name="no_custom_lists" xml:space="preserve">
+    <value>No Custom Lists</value>
+  </data>
+  <data name="edit_custom_list" xml:space="preserve">
+    <value>Edit Custom List</value>
+  </data>
+  <data name="legacy_id" xml:space="preserve">
+    <value>Legacy Id</value>
+  </data>
+  <data name="rank" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="custom_list_updated_successfully" xml:space="preserve">
+    <value>Custom list {0} updated successfully</value>
+  </data>
+  <data name="error_list_already_exists" xml:space="preserve">
+    <value>The specified list already exists.  To make changes to an existing list, edit that list instead of creating a new one.</value>
+  </data>
+  <data name="allow_release" xml:space="preserve">
+    <value>Allow Release</value>
+  </data>
+  <data name="before_program" xml:space="preserve">
+    <value>Before Program</value>
+  </data>
+  <data name="client_retrieve_pin" xml:space="preserve">
+    <value>Client Retrieve PIN</value>
+  </data>
+  <data name="custom_passcode" xml:space="preserve">
+    <value>Custom Passcode</value>
+  </data>
+  <data name="days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="dnis" xml:space="preserve">
+    <value>DNIS</value>
+  </data>
+  <data name="edit_recording_file" xml:space="preserve">
+    <value>Edit Recording File</value>
+  </data>
+  <data name="end_of_program" xml:space="preserve">
+    <value>End of Program</value>
+  </data>
+  <data name="name_affiliation" xml:space="preserve">
+    <value>Name and Affiliation</value>
+  </data>
+  <data name="name_affiliation_city_state" xml:space="preserve">
+    <value>Name, Affiliation, City and State</value>
+  </data>
+  <data name="name_affiliation_phone" xml:space="preserve">
+    <value>Name, Affiliation and Phone Number</value>
+  </data>
+  <data name="name_affiliation_phone_fax" xml:space="preserve">
+    <value>Name, Affilaition, Phone Number and Fax</value>
+  </data>
+  <data name="name_city_state" xml:space="preserve">
+    <value>Name, City and State</value>
+  </data>
+  <data name="name_only" xml:space="preserve">
+    <value>Name Only</value>
+  </data>
+  <data name="name_phone" xml:space="preserve">
+    <value>Name and Phone Number</value>
+  </data>
+  <data name="number_of_days" xml:space="preserve">
+    <value>Number Of Days</value>
+  </data>
+  <data name="other_special_instructions" xml:space="preserve">
+    <value>Other (See Special Instructions)</value>
+  </data>
+  <data name="replay" xml:space="preserve">
+    <value>Replay</value>
+  </data>
+  <data name="rush" xml:space="preserve">
+    <value>Rush</value>
+  </data>
+  <data name="security_code" xml:space="preserve">
+    <value>Security Code</value>
+  </data>
+  <data name="send_frequency" xml:space="preserve">
+    <value>Send Frequency</value>
+  </data>
+  <data name="soundbyte_basic" xml:space="preserve">
+    <value>SoundByte Basic</value>
+  </data>
+  <data name="soundbyte_custom" xml:space="preserve">
+    <value>SoundByte Custom</value>
+  </data>
+  <data name="soundbyte_deluxe" xml:space="preserve">
+    <value>SoundByte Deluxe</value>
+  </data>
+  <data name="voice_capture" xml:space="preserve">
+    <value>Voice Capture</value>
+  </data>
+  <data name="voice_capture_option" xml:space="preserve">
+    <value>Voice Capture Option</value>
+  </data>
+  <data name="voice_capture_report" xml:space="preserve">
+    <value>Voice Capture Report</value>
+  </data>
+  <data name="contact_name" xml:space="preserve">
+    <value>Contact Name</value>
+  </data>
+  <data name="dial_in" xml:space="preserve">
+    <value>Dial In</value>
+  </data>
+  <data name="dial_out" xml:space="preserve">
+    <value>Dial Out</value>
+  </data>
+  <data name="duration_minutes" xml:space="preserve">
+    <value>Duration (minutes)</value>
+  </data>
+  <data name="establishe_minutes_before" xml:space="preserve">
+    <value>Established (minutes before)</value>
+  </data>
+  <data name="number_of_commlines" xml:space="preserve">
+    <value>Number of Commlines</value>
+  </data>
+  <data name="shared" xml:space="preserve">
+    <value>Shared</value>
+  </data>
+  <data name="purpose" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="phone_location" xml:space="preserve">
+    <value>Phone Location</value>
+  </data>
+  <data name="shared_line" xml:space="preserve">
+    <value>Shared Line</value>
+  </data>
+  <data name="afghanistan" xml:space="preserve">
+    <value>Afghanistan </value>
+  </data>
+  <data name="aland_islands" xml:space="preserve">
+    <value>Åland Islands </value>
+  </data>
+  <data name="albania" xml:space="preserve">
+    <value>Albania </value>
+  </data>
+  <data name="algeria" xml:space="preserve">
+    <value>Algeria </value>
+  </data>
+  <data name="american_samoa" xml:space="preserve">
+    <value>American Samoa </value>
+  </data>
+  <data name="andorra" xml:space="preserve">
+    <value>Andorra </value>
+  </data>
+  <data name="angola" xml:space="preserve">
+    <value>Angola </value>
+  </data>
+  <data name="anguilla" xml:space="preserve">
+    <value>Anguilla </value>
+  </data>
+  <data name="antarctica" xml:space="preserve">
+    <value>Antarctica </value>
+  </data>
+  <data name="antigua" xml:space="preserve">
+    <value>Antigua and Barbuda </value>
+  </data>
+  <data name="argentina" xml:space="preserve">
+    <value>Argentina </value>
+  </data>
+  <data name="armenia" xml:space="preserve">
+    <value>Armenia </value>
+  </data>
+  <data name="aruba" xml:space="preserve">
+    <value>Aruba </value>
+  </data>
+  <data name="australia" xml:space="preserve">
+    <value>Australia </value>
+  </data>
+  <data name="austria" xml:space="preserve">
+    <value>Austria </value>
+  </data>
+  <data name="azerbaijan" xml:space="preserve">
+    <value>Azerbaijan </value>
+  </data>
+  <data name="bahamas" xml:space="preserve">
+    <value>Bahamas </value>
+  </data>
+  <data name="bahrain" xml:space="preserve">
+    <value>Bahrain </value>
+  </data>
+  <data name="bangladesh" xml:space="preserve">
+    <value>Bangladesh </value>
+  </data>
+  <data name="barbados" xml:space="preserve">
+    <value>Barbados </value>
+  </data>
+  <data name="belarus" xml:space="preserve">
+    <value>Belarus </value>
+  </data>
+  <data name="belgium" xml:space="preserve">
+    <value>Belgium </value>
+  </data>
+  <data name="belize" xml:space="preserve">
+    <value>Belize </value>
+  </data>
+  <data name="benin" xml:space="preserve">
+    <value>Benin </value>
+  </data>
+  <data name="bermuda" xml:space="preserve">
+    <value>Bermuda </value>
+  </data>
+  <data name="bhutan" xml:space="preserve">
+    <value>Bhutan </value>
+  </data>
+  <data name="bolivia" xml:space="preserve">
+    <value>Bolivia, Plurinational State of </value>
+  </data>
+  <data name="bonaire" xml:space="preserve">
+    <value>Bonaire, Sint Eustatius and Saba </value>
+  </data>
+  <data name="bosnia_and_herzegovina" xml:space="preserve">
+    <value>Bosnia and Herzegovina </value>
+  </data>
+  <data name="botswana" xml:space="preserve">
+    <value>Botswana </value>
+  </data>
+  <data name="bouvet_island" xml:space="preserve">
+    <value>Bouvet Island </value>
+  </data>
+  <data name="brazil" xml:space="preserve">
+    <value>Brazil </value>
+  </data>
+  <data name="british_indian_ocean_territory" xml:space="preserve">
+    <value>British Indian Ocean Territory </value>
+  </data>
+  <data name="british_virgin_islands" xml:space="preserve">
+    <value>Virgin Islands, British </value>
+  </data>
+  <data name="brunei_darussalam" xml:space="preserve">
+    <value>Brunei Darussalam </value>
+  </data>
+  <data name="bulgaria" xml:space="preserve">
+    <value>Bulgaria </value>
+  </data>
+  <data name="burkina_faso" xml:space="preserve">
+    <value>Burkina Faso </value>
+  </data>
+  <data name="burundi" xml:space="preserve">
+    <value>Burundi </value>
+  </data>
+  <data name="cabo_verde" xml:space="preserve">
+    <value>Cabo Verde </value>
+  </data>
+  <data name="cambodia" xml:space="preserve">
+    <value>Cambodia </value>
+  </data>
+  <data name="cameroon" xml:space="preserve">
+    <value>Cameroon </value>
+  </data>
+  <data name="canada" xml:space="preserve">
+    <value>Canada </value>
+  </data>
+  <data name="cayman_islands" xml:space="preserve">
+    <value>Cayman Islands </value>
+  </data>
+  <data name="central_african_republic" xml:space="preserve">
+    <value>Central African Republic </value>
+  </data>
+  <data name="chad" xml:space="preserve">
+    <value>Chad </value>
+  </data>
+  <data name="chile" xml:space="preserve">
+    <value>Chile </value>
+  </data>
+  <data name="china" xml:space="preserve">
+    <value>China </value>
+  </data>
+  <data name="christmas_island" xml:space="preserve">
+    <value>Christmas Island </value>
+  </data>
+  <data name="cocos_keeling_islands" xml:space="preserve">
+    <value>Cocos (Keeling) Islands </value>
+  </data>
+  <data name="colombia" xml:space="preserve">
+    <value>Colombia </value>
+  </data>
+  <data name="comoros" xml:space="preserve">
+    <value>Comoros </value>
+  </data>
+  <data name="congo" xml:space="preserve">
+    <value>Congo </value>
+  </data>
+  <data name="congo_democratic_republic" xml:space="preserve">
+    <value>Congo, the Democratic Republic of the </value>
+  </data>
+  <data name="cook_islands" xml:space="preserve">
+    <value>Cook Islands </value>
+  </data>
+  <data name="costa_rica" xml:space="preserve">
+    <value>Costa Rica </value>
+  </data>
+  <data name="cote_d_ivoire" xml:space="preserve">
+    <value>Côte d'Ivoire </value>
+  </data>
+  <data name="croatia" xml:space="preserve">
+    <value>Croatia </value>
+  </data>
+  <data name="cuba" xml:space="preserve">
+    <value>Cuba </value>
+  </data>
+  <data name="curacao" xml:space="preserve">
+    <value>Curaçao </value>
+  </data>
+  <data name="cyprus" xml:space="preserve">
+    <value>Cyprus </value>
+  </data>
+  <data name="czech_republic" xml:space="preserve">
+    <value>Czech Republic </value>
+  </data>
+  <data name="denmark" xml:space="preserve">
+    <value>Denmark </value>
+  </data>
+  <data name="djibouti" xml:space="preserve">
+    <value>Djibouti </value>
+  </data>
+  <data name="dominica" xml:space="preserve">
+    <value>Dominica </value>
+  </data>
+  <data name="dominican_republic" xml:space="preserve">
+    <value>Dominican Republic </value>
+  </data>
+  <data name="do_you_want_to_delete_this_row_listoption" xml:space="preserve">
+    <value>Do you want to delete this row? Doing so may have unintended downstream consequences if the list is in use.</value>
+  </data>
+  <data name="ecuador" xml:space="preserve">
+    <value>Ecuador </value>
+  </data>
+  <data name="egypt" xml:space="preserve">
+    <value>Egypt </value>
+  </data>
+  <data name="el_salvador" xml:space="preserve">
+    <value>El Salvador </value>
+  </data>
+  <data name="equatorial_guinea" xml:space="preserve">
+    <value>Equatorial Guinea </value>
+  </data>
+  <data name="eritrea" xml:space="preserve">
+    <value>Eritrea </value>
+  </data>
+  <data name="estonia" xml:space="preserve">
+    <value>Estonia </value>
+  </data>
+  <data name="ethiopia" xml:space="preserve">
+    <value>Ethiopia </value>
+  </data>
+  <data name="falkland_islands" xml:space="preserve">
+    <value>Falkland Islands (Malvinas) </value>
+  </data>
+  <data name="faroe_islands" xml:space="preserve">
+    <value>Faroe Islands </value>
+  </data>
+  <data name="fiji" xml:space="preserve">
+    <value>Fiji </value>
+  </data>
+  <data name="finland" xml:space="preserve">
+    <value>Finland </value>
+  </data>
+  <data name="france" xml:space="preserve">
+    <value>France </value>
+  </data>
+  <data name="french_guiana" xml:space="preserve">
+    <value>French Guiana </value>
+  </data>
+  <data name="french_polynesia" xml:space="preserve">
+    <value>French Polynesia </value>
+  </data>
+  <data name="french_southern_territories" xml:space="preserve">
+    <value>French Southern Territories </value>
+  </data>
+  <data name="gabon" xml:space="preserve">
+    <value>Gabon </value>
+  </data>
+  <data name="gambia" xml:space="preserve">
+    <value>Gambia </value>
+  </data>
+  <data name="georgia" xml:space="preserve">
+    <value>Georgia </value>
+  </data>
+  <data name="germany" xml:space="preserve">
+    <value>Germany </value>
+  </data>
+  <data name="ghana" xml:space="preserve">
+    <value>Ghana </value>
+  </data>
+  <data name="gibraltar" xml:space="preserve">
+    <value>Gibraltar </value>
+  </data>
+  <data name="greece" xml:space="preserve">
+    <value>Greece </value>
+  </data>
+  <data name="greenland" xml:space="preserve">
+    <value>Greenland </value>
+  </data>
+  <data name="grenada" xml:space="preserve">
+    <value>Grenada </value>
+  </data>
+  <data name="guadeloupe" xml:space="preserve">
+    <value>Guadeloupe </value>
+  </data>
+  <data name="guam" xml:space="preserve">
+    <value>Guam </value>
+  </data>
+  <data name="guatemala" xml:space="preserve">
+    <value>Guatemala </value>
+  </data>
+  <data name="guernsey" xml:space="preserve">
+    <value>Guernsey </value>
+  </data>
+  <data name="guinea" xml:space="preserve">
+    <value>Guinea </value>
+  </data>
+  <data name="guinea_bissau" xml:space="preserve">
+    <value>Guinea-Bissau </value>
+  </data>
+  <data name="guyana" xml:space="preserve">
+    <value>Guyana </value>
+  </data>
+  <data name="haiti" xml:space="preserve">
+    <value>Haiti </value>
+  </data>
+  <data name="heard_island_and_mcdonald_islands" xml:space="preserve">
+    <value>Heard Island and McDonald Islands </value>
+  </data>
+  <data name="holy_see" xml:space="preserve">
+    <value>Holy See (Vatican City State) </value>
+  </data>
+  <data name="honduras" xml:space="preserve">
+    <value>Honduras </value>
+  </data>
+  <data name="hong_kong" xml:space="preserve">
+    <value>Hong Kong </value>
+  </data>
+  <data name="hungary" xml:space="preserve">
+    <value>Hungary </value>
+  </data>
+  <data name="iceland" xml:space="preserve">
+    <value>Iceland </value>
+  </data>
+  <data name="india" xml:space="preserve">
+    <value>India </value>
+  </data>
+  <data name="indonesia" xml:space="preserve">
+    <value>Indonesia </value>
+  </data>
+  <data name="iran" xml:space="preserve">
+    <value>Iran, Islamic Republic of </value>
+  </data>
+  <data name="iraq" xml:space="preserve">
+    <value>Iraq </value>
+  </data>
+  <data name="ireland" xml:space="preserve">
+    <value>Ireland </value>
+  </data>
+  <data name="isle_of_man" xml:space="preserve">
+    <value>Isle of Man </value>
+  </data>
+  <data name="israel" xml:space="preserve">
+    <value>Israel </value>
+  </data>
+  <data name="italy" xml:space="preserve">
+    <value>Italy </value>
+  </data>
+  <data name="jamaica" xml:space="preserve">
+    <value>Jamaica </value>
+  </data>
+  <data name="japan" xml:space="preserve">
+    <value>Japan </value>
+  </data>
+  <data name="jersey" xml:space="preserve">
+    <value>Jersey </value>
+  </data>
+  <data name="jordan" xml:space="preserve">
+    <value>Jordan </value>
+  </data>
+  <data name="kazakhstan" xml:space="preserve">
+    <value>Kazakhstan </value>
+  </data>
+  <data name="kenya" xml:space="preserve">
+    <value>Kenya </value>
+  </data>
+  <data name="kiribati" xml:space="preserve">
+    <value>Kiribati </value>
+  </data>
+  <data name="korea_democratic_republic" xml:space="preserve">
+    <value>Korea, Democratic People's Republic of </value>
+  </data>
+  <data name="korea_republic_of" xml:space="preserve">
+    <value>Korea, Republic of </value>
+  </data>
+  <data name="kuwait" xml:space="preserve">
+    <value>Kuwait </value>
+  </data>
+  <data name="kyrgyzstan" xml:space="preserve">
+    <value>Kyrgyzstan </value>
+  </data>
+  <data name="lao_peoples_democratic_republic" xml:space="preserve">
+    <value>Lao People's Democratic Republic </value>
+  </data>
+  <data name="latvia" xml:space="preserve">
+    <value>Latvia </value>
+  </data>
+  <data name="lebanon" xml:space="preserve">
+    <value>Lebanon </value>
+  </data>
+  <data name="lesotho" xml:space="preserve">
+    <value>Lesotho </value>
+  </data>
+  <data name="liberia" xml:space="preserve">
+    <value>Liberia </value>
+  </data>
+  <data name="libya" xml:space="preserve">
+    <value>Libya </value>
+  </data>
+  <data name="liechtenstein" xml:space="preserve">
+    <value>Liechtenstein </value>
+  </data>
+  <data name="lithuania" xml:space="preserve">
+    <value>Lithuania </value>
+  </data>
+  <data name="luxembourg" xml:space="preserve">
+    <value>Luxembourg </value>
+  </data>
+  <data name="macao" xml:space="preserve">
+    <value>Macao </value>
+  </data>
+  <data name="macedonia" xml:space="preserve">
+    <value>Macedonia, the former Yugoslav Republic of </value>
+  </data>
+  <data name="madagascar" xml:space="preserve">
+    <value>Madagascar </value>
+  </data>
+  <data name="malawi" xml:space="preserve">
+    <value>Malawi </value>
+  </data>
+  <data name="malaysia" xml:space="preserve">
+    <value>Malaysia </value>
+  </data>
+  <data name="maldives" xml:space="preserve">
+    <value>Maldives </value>
+  </data>
+  <data name="mali" xml:space="preserve">
+    <value>Mali </value>
+  </data>
+  <data name="malta" xml:space="preserve">
+    <value>Malta </value>
+  </data>
+  <data name="marshall_islands" xml:space="preserve">
+    <value>Marshall Islands </value>
+  </data>
+  <data name="martinique" xml:space="preserve">
+    <value>Martinique </value>
+  </data>
+  <data name="mauritania" xml:space="preserve">
+    <value>Mauritania </value>
+  </data>
+  <data name="mauritius" xml:space="preserve">
+    <value>Mauritius </value>
+  </data>
+  <data name="mayotte" xml:space="preserve">
+    <value>Mayotte </value>
+  </data>
+  <data name="mexico" xml:space="preserve">
+    <value>Mexico </value>
+  </data>
+  <data name="micronesia" xml:space="preserve">
+    <value>Micronesia, Federated States of </value>
+  </data>
+  <data name="moldova" xml:space="preserve">
+    <value>Moldova, Republic of </value>
+  </data>
+  <data name="monaco" xml:space="preserve">
+    <value>Monaco </value>
+  </data>
+  <data name="mongolia" xml:space="preserve">
+    <value>Mongolia </value>
+  </data>
+  <data name="montenegro" xml:space="preserve">
+    <value>Montenegro </value>
+  </data>
+  <data name="montserrat" xml:space="preserve">
+    <value>Montserrat </value>
+  </data>
+  <data name="morocco" xml:space="preserve">
+    <value>Morocco </value>
+  </data>
+  <data name="mozambique" xml:space="preserve">
+    <value>Mozambique </value>
+  </data>
+  <data name="myanmar" xml:space="preserve">
+    <value>Myanmar </value>
+  </data>
+  <data name="namibia" xml:space="preserve">
+    <value>Namibia </value>
+  </data>
+  <data name="nauru" xml:space="preserve">
+    <value>Nauru </value>
+  </data>
+  <data name="nepal" xml:space="preserve">
+    <value>Nepal </value>
+  </data>
+  <data name="netherlands" xml:space="preserve">
+    <value>Netherlands </value>
+  </data>
+  <data name="new_caledonia" xml:space="preserve">
+    <value>New Caledonia </value>
+  </data>
+  <data name="new_zealand" xml:space="preserve">
+    <value>New Zealand </value>
+  </data>
+  <data name="nicaragua" xml:space="preserve">
+    <value>Nicaragua </value>
+  </data>
+  <data name="niger" xml:space="preserve">
+    <value>Niger </value>
+  </data>
+  <data name="nigeria" xml:space="preserve">
+    <value>Nigeria </value>
+  </data>
+  <data name="niue" xml:space="preserve">
+    <value>Niue </value>
+  </data>
+  <data name="norfolk_island" xml:space="preserve">
+    <value>Norfolk Island </value>
+  </data>
+  <data name="northern_mariana_islands" xml:space="preserve">
+    <value>Northern Mariana Islands </value>
+  </data>
+  <data name="norway" xml:space="preserve">
+    <value>Norway </value>
+  </data>
+  <data name="oman" xml:space="preserve">
+    <value>Oman </value>
+  </data>
+  <data name="pakistan" xml:space="preserve">
+    <value>Pakistan </value>
+  </data>
+  <data name="palau" xml:space="preserve">
+    <value>Palau </value>
+  </data>
+  <data name="palestine" xml:space="preserve">
+    <value>Palestine, State of </value>
+  </data>
+  <data name="panama" xml:space="preserve">
+    <value>Panama </value>
+  </data>
+  <data name="papua_new_guinea" xml:space="preserve">
+    <value>Papua New Guinea </value>
+  </data>
+  <data name="paraguay" xml:space="preserve">
+    <value>Paraguay </value>
+  </data>
+  <data name="peru" xml:space="preserve">
+    <value>Peru </value>
+  </data>
+  <data name="philippines" xml:space="preserve">
+    <value>Philippines </value>
+  </data>
+  <data name="pitcairn" xml:space="preserve">
+    <value>Pitcairn </value>
+  </data>
+  <data name="poland" xml:space="preserve">
+    <value>Poland </value>
+  </data>
+  <data name="portugal" xml:space="preserve">
+    <value>Portugal </value>
+  </data>
+  <data name="puerto_rico" xml:space="preserve">
+    <value>Puerto Rico </value>
+  </data>
+  <data name="qatar" xml:space="preserve">
+    <value>Qatar </value>
+  </data>
+  <data name="romania" xml:space="preserve">
+    <value>Romania </value>
+  </data>
+  <data name="russian_federation" xml:space="preserve">
+    <value>Russian Federation </value>
+  </data>
+  <data name="rwanda" xml:space="preserve">
+    <value>Rwanda </value>
+  </data>
+  <data name="réunion" xml:space="preserve">
+    <value>Réunion </value>
+  </data>
+  <data name="saint_barthelemy" xml:space="preserve">
+    <value>Saint Barthélemy </value>
+  </data>
+  <data name="saint_helena" xml:space="preserve">
+    <value>Saint Helena, Ascension and Tristan da Cunha </value>
+  </data>
+  <data name="saint_kitts_and_nevis" xml:space="preserve">
+    <value>Saint Kitts and Nevis </value>
+  </data>
+  <data name="saint_lucia" xml:space="preserve">
+    <value>Saint Lucia </value>
+  </data>
+  <data name="saint_martin_french" xml:space="preserve">
+    <value>Saint Martin (French part) </value>
+  </data>
+  <data name="saint_pierre_and_miquelon" xml:space="preserve">
+    <value>Saint Pierre and Miquelon </value>
+  </data>
+  <data name="saint_vincent_and_the_grenadines" xml:space="preserve">
+    <value>Saint Vincent and the Grenadines </value>
+  </data>
+  <data name="samoa" xml:space="preserve">
+    <value>Samoa </value>
+  </data>
+  <data name="san_marino" xml:space="preserve">
+    <value>San Marino </value>
+  </data>
+  <data name="sao_tome_and_principe" xml:space="preserve">
+    <value>Sao Tome and Principe </value>
+  </data>
+  <data name="saudi_arabia" xml:space="preserve">
+    <value>Saudi Arabia </value>
+  </data>
+  <data name="senegal" xml:space="preserve">
+    <value>Senegal </value>
+  </data>
+  <data name="serbia" xml:space="preserve">
+    <value>Serbia </value>
+  </data>
+  <data name="seychelles" xml:space="preserve">
+    <value>Seychelles </value>
+  </data>
+  <data name="sierra_leone" xml:space="preserve">
+    <value>Sierra Leone </value>
+  </data>
+  <data name="singapore" xml:space="preserve">
+    <value>Singapore </value>
+  </data>
+  <data name="sint_maarten_dutch" xml:space="preserve">
+    <value>Sint Maarten (Dutch part) </value>
+  </data>
+  <data name="slovakia" xml:space="preserve">
+    <value>Slovakia </value>
+  </data>
+  <data name="slovenia" xml:space="preserve">
+    <value>Slovenia </value>
+  </data>
+  <data name="solomon_islands" xml:space="preserve">
+    <value>Solomon Islands </value>
+  </data>
+  <data name="somalia" xml:space="preserve">
+    <value>Somalia </value>
+  </data>
+  <data name="south_africa" xml:space="preserve">
+    <value>South Africa </value>
+  </data>
+  <data name="south_georgia" xml:space="preserve">
+    <value>South Georgia and the South Sandwich Islands </value>
+  </data>
+  <data name="south_sudan" xml:space="preserve">
+    <value>South Sudan </value>
+  </data>
+  <data name="spain" xml:space="preserve">
+    <value>Spain </value>
+  </data>
+  <data name="sri_lanka" xml:space="preserve">
+    <value>Sri Lanka </value>
+  </data>
+  <data name="sudan" xml:space="preserve">
+    <value>Sudan </value>
+  </data>
+  <data name="suriname" xml:space="preserve">
+    <value>Suriname </value>
+  </data>
+  <data name="svalbard_and_jan_mayen" xml:space="preserve">
+    <value>Svalbard and Jan Mayen </value>
+  </data>
+  <data name="swaziland" xml:space="preserve">
+    <value>Swaziland </value>
+  </data>
+  <data name="sweden" xml:space="preserve">
+    <value>Sweden </value>
+  </data>
+  <data name="switzerland" xml:space="preserve">
+    <value>Switzerland </value>
+  </data>
+  <data name="syrian_arab_republic" xml:space="preserve">
+    <value>Syrian Arab Republic </value>
+  </data>
+  <data name="taiwan" xml:space="preserve">
+    <value>Taiwan, Province of China </value>
+  </data>
+  <data name="tajikistan" xml:space="preserve">
+    <value>Tajikistan </value>
+  </data>
+  <data name="tanzania" xml:space="preserve">
+    <value>Tanzania, United Republic of </value>
+  </data>
+  <data name="thailand" xml:space="preserve">
+    <value>Thailand </value>
+  </data>
+  <data name="timor_leste" xml:space="preserve">
+    <value>Timor-Leste </value>
+  </data>
+  <data name="togo" xml:space="preserve">
+    <value>Togo </value>
+  </data>
+  <data name="tokelau" xml:space="preserve">
+    <value>Tokelau </value>
+  </data>
+  <data name="tonga" xml:space="preserve">
+    <value>Tonga </value>
+  </data>
+  <data name="trinidad_and_tobago" xml:space="preserve">
+    <value>Trinidad and Tobago </value>
+  </data>
+  <data name="tunisia" xml:space="preserve">
+    <value>Tunisia </value>
+  </data>
+  <data name="turkey" xml:space="preserve">
+    <value>Turkey </value>
+  </data>
+  <data name="turkmenistan" xml:space="preserve">
+    <value>Turkmenistan </value>
+  </data>
+  <data name="turks_and_caicos_islands" xml:space="preserve">
+    <value>Turks and Caicos Islands </value>
+  </data>
+  <data name="tuvalu" xml:space="preserve">
+    <value>Tuvalu </value>
+  </data>
+  <data name="uganda" xml:space="preserve">
+    <value>Uganda </value>
+  </data>
+  <data name="ukraine" xml:space="preserve">
+    <value>Ukraine </value>
+  </data>
+  <data name="united_arab_emirates" xml:space="preserve">
+    <value>United Arab Emirates </value>
+  </data>
+  <data name="united_kingdom" xml:space="preserve">
+    <value>United Kingdom </value>
+  </data>
+  <data name="united_states" xml:space="preserve">
+    <value>United States </value>
+  </data>
+  <data name="united_states_minor_outlying_islands" xml:space="preserve">
+    <value>United States Minor Outlying Islands </value>
+  </data>
+  <data name="uruguay" xml:space="preserve">
+    <value>Uruguay </value>
+  </data>
+  <data name="us_virgin_islands" xml:space="preserve">
+    <value>Virgin Islands, U.S. </value>
+  </data>
+  <data name="uzbekistan" xml:space="preserve">
+    <value>Uzbekistan </value>
+  </data>
+  <data name="vanuatu" xml:space="preserve">
+    <value>Vanuatu </value>
+  </data>
+  <data name="venezuela" xml:space="preserve">
+    <value>Venezuela, Bolivarian Republic of </value>
+  </data>
+  <data name="vietnam" xml:space="preserve">
+    <value>Viet Nam </value>
+  </data>
+  <data name="wallis_and_futuna" xml:space="preserve">
+    <value>Wallis and Futuna </value>
+  </data>
+  <data name="western_sahara" xml:space="preserve">
+    <value>Western Sahara </value>
+  </data>
+  <data name="yemen" xml:space="preserve">
+    <value>Yemen </value>
+  </data>
+  <data name="zambia" xml:space="preserve">
+    <value>Zambia </value>
+  </data>
+  <data name="zimbabwe" xml:space="preserve">
+    <value>Zimbabwe </value>
+  </data>
+  <data name="localized" xml:space="preserve">
+    <value>Localized</value>
+  </data>
+  <data name="parent_id" xml:space="preserve">
+    <value>Parent Id</value>
+  </data>
+  <data name="transcription" xml:space="preserve">
+    <value>Transcription</value>
+  </data>
+  <data name="delivery_instructions" xml:space="preserve">
+    <value>Delivery Instructions</value>
+  </data>
+  <data name="error_recipient_info_incomplete" xml:space="preserve">
+    <value>Recipient Information is incomplete</value>
+  </data>
+  <data name="no_participants_selected" xml:space="preserve">
+    <value>No Participants Selected</value>
+  </data>
+  <data name="recipient" xml:space="preserve">
+    <value>Recipient</value>
+  </data>
+  <data name="requested_delivery_time" xml:space="preserve">
+    <value>Requested Delivery Time</value>
+  </data>
+  <data name="vendor" xml:space="preserve">
+    <value>Vendor</value>
+  </data>
+  <data name="cantonese" xml:space="preserve">
+    <value>Cantonese</value>
+  </data>
+  <data name="dial_out_number" xml:space="preserve">
+    <value>Dial-out Number</value>
+  </data>
+  <data name="entire_call" xml:space="preserve">
+    <value>Entire Call</value>
+  </data>
+  <data name="french_canadian" xml:space="preserve">
+    <value>French (Canadian)</value>
+  </data>
+  <data name="ir_client" xml:space="preserve">
+    <value>IR Client</value>
+  </data>
+  <data name="japanese" xml:space="preserve">
+    <value>Japanese</value>
+  </data>
+  <data name="korean" xml:space="preserve">
+    <value>Korean</value>
+  </data>
+  <data name="mandarin" xml:space="preserve">
+    <value>Mandarin</value>
+  </data>
+  <data name="qa_only" xml:space="preserve">
+    <value>Q&amp;A Only</value>
+  </data>
+  <data name="regular_mail" xml:space="preserve">
+    <value>Regular Mail</value>
+  </data>
+  <data name="transcription_portion" xml:space="preserve">
+    <value>Transcription Portion</value>
+  </data>
+  <data name="expand_all" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="method" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="show_all" xml:space="preserve">
+    <value>Show All</value>
+  </data>
+  <data name="_24_hour_transcription" xml:space="preserve">
+    <value>24 Hour Transcription</value>
+  </data>
+  <data name="_3_hour_transcription" xml:space="preserve">
+    <value>3 Hour Transcription</value>
+  </data>
+  <data name="_6_hour_transcription" xml:space="preserve">
+    <value>6 Hour Transcription</value>
+  </data>
+  <data name="_72_hour_transcription" xml:space="preserve">
+    <value>72 Hour Transcription (APAC ONLY)</value>
+  </data>
+  <data name="_96_hour_transcription" xml:space="preserve">
+    <value>96 Hour Transcription (APAC ONLY)</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="after_qa" xml:space="preserve">
+    <value>After Q&amp;A</value>
+  </data>
+  <data name="at_the_end_of_the_call" xml:space="preserve">
+    <value>At the end of the call</value>
+  </data>
+  <data name="before_qa" xml:space="preserve">
+    <value>Before Q&amp;A</value>
+  </data>
+  <data name="polling" xml:space="preserve">
+    <value>Polling</value>
+  </data>
+  <data name="polling_comments" xml:space="preserve">
+    <value>Polling Comments</value>
+  </data>
+  <data name="questions" xml:space="preserve">
+    <value>Questions</value>
+  </data>
+  <data name="verbal_que_from_speakers" xml:space="preserve">
+    <value>Verbal que from speakers</value>
+  </data>
+  <data name="commlines" xml:space="preserve">
+    <value>Commlines</value>
+  </data>
+  <data name="commline_type" xml:space="preserve">
+    <value>Commline Types</value>
+  </data>
+  <data name="custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="custom_type" xml:space="preserve">
+    <value>Custom Type</value>
+  </data>
+  <data name="established" xml:space="preserve">
+    <value>Established</value>
+  </data>
+  <data name="indexing_started" xml:space="preserve">
+    <value>Indexing all index fileds has started.</value>
+  </data>
+  <data name="index_domain" xml:space="preserve">
+    <value>Index Domain</value>
+  </data>
+  <data name="ad_hoc" xml:space="preserve">
+    <value>Ad Hoc</value>
+  </data>
+  <data name="noe" xml:space="preserve">
+    <value>NOE</value>
+  </data>
+  <data name="canceled" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="cancel_conference" xml:space="preserve">
+    <value>Cancel Conference</value>
+  </data>
+  <data name="conferences_status_change_msg" xml:space="preserve">
+    <value>This status for this conference will be changed to {0}</value>
+  </data>
+  <data name="noe_and_pin" xml:space="preserve">
+    <value>NOE &amp; PIN</value>
+  </data>
+  <data name="pin" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="approval_needed" xml:space="preserve">
+    <value>Approval needed</value>
+  </data>
+  <data name="capture_warning" xml:space="preserve">
+    <value>You have selected more than 3 options, please seek approval for the additional options you've selected</value>
+  </data>
+  <data name="on24" xml:space="preserve">
+    <value>ON24</value>
+  </data>
+  <data name="conference_status_change_additional_msg" xml:space="preserve">
+    <value>The following instances will also be changed:</value>
+  </data>
+  <data name="archive_location" xml:space="preserve">
+    <value>Archive Location</value>
+  </data>
+  <data name="dmms_email" xml:space="preserve">
+    <value>DMMS Email </value>
+  </data>
+  <data name="name_affiliation_email" xml:space="preserve">
+    <value>Name, Affiliation &amp; Email</value>
+  </data>
+  <data name="name_affiliation_goldman_sachs_city_state" xml:space="preserve">
+    <value>Name, Affiliation and if with Goldman Sachs, please leave your City &amp; State</value>
+  </data>
+  <data name="name_affiliation_phone_goldman_sachs_city_state" xml:space="preserve">
+    <value>Name, Affiliation, Phone Number and if with Goldman Sachs, please leave your City &amp; State</value>
+  </data>
+  <data name="type_1_comment" xml:space="preserve">
+    <value>Comment for Type 1.</value>
+  </data>
+  <data name="participant_distribution_list" xml:space="preserve">
+    <value>Participant Distribution List</value>
+  </data>
+  <data name="enter_options_to_be_included" xml:space="preserve">
+    <value>Enter options to be included (space for all)</value>
+  </data>
+  <data name="enter_comma_seperated_email_addresses" xml:space="preserve">
+    <value>Enter comma seperated email addresses</value>
+  </data>
+  <data name="immediate" xml:space="preserve">
+    <value>Immediate</value>
+  </data>
+  <data name="post_conference" xml:space="preserve">
+    <value>Post Conference</value>
+  </data>
+  <data name="include" xml:space="preserve">
+    <value>Include</value>
+  </data>
+  <data name="default_opening_script" xml:space="preserve">
+    <value>Good day and welcome to the {company name} {conference title} conference call. Today's conference is being recorded. At this time, I would like to turn the conference over to {mr./mrs. moderator}. Please go ahead sir/ma'am...</value>
+  </data>
+  <data name="generate_default_script" xml:space="preserve">
+    <value>Generate Default Script</value>
+  </data>
+  <data name="opening_script" xml:space="preserve">
+    <value>Opening Script</value>
+  </data>
+  <data name="enter_opening_script" xml:space="preserve">
+    <value>Enter Opening Script</value>
+  </data>
+  <data name="opening_script_warning" xml:space="preserve">
+    <value>This will clear out your current opening script. Do you wish to continue?</value>
+  </data>
+  <data name="preparation_time" xml:space="preserve">
+    <value>Preparation Time</value>
+  </data>
+  <data name="pre_conference" xml:space="preserve">
+    <value>Preconference</value>
+  </data>
+  <data name="event_production" xml:space="preserve">
+    <value>Event Production</value>
+  </data>
+  <data name="post_conference_comment" xml:space="preserve">
+    <value>Post Conference Comments</value>
+  </data>
+  <data name="event_assistance" xml:space="preserve">
+    <value>Event Assistance</value>
+  </data>
+  <data name="event_monitoring" xml:space="preserve">
+    <value>Event Monitoring</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Event Production</value>
+  </data>
+  <data name="event_production_plus" xml:space="preserve">
+    <value>Event Production Plus</value>
+  </data>
+  <data name="hourly_billing" xml:space="preserve">
+    <value>Hourly Billing</value>
+  </data>
+  <data name="microsite_assistance_required" xml:space="preserve">
+    <value>Microsite Assistance Required</value>
+  </data>
+  <data name="translation" xml:space="preserve">
+    <value>Translation</value>
+  </data>
+  <data name="company_information" xml:space="preserve">
+    <value>Company Information</value>
+  </data>
+  <data name="replay_numbers" xml:space="preserve">
+    <value>Replay Numbers</value>
+  </data>
+  <data name="phone_numbers" xml:space="preserve">
+    <value>Phone Numbers</value>
+  </data>
+  <data name="bridge_name" xml:space="preserve">
+    <value>Bridge Name</value>
+  </data>
+  <data name="dialin_ports" xml:space="preserve">
+    <value>Dialin Ports</value>
+  </data>
+  <data name="dialout_ports" xml:space="preserve">
+    <value>Dialout Ports</value>
+  </data>
+  <data name="conference_has_not_been_allocated" xml:space="preserve">
+    <value>Conference has not been Allocated</value>
+  </data>
+  <data name="interpreters_to_answer_lines" xml:space="preserve">
+    <value>Interpreters to answer lines</value>
+  </data>
+  <data name="interpreter_for_all_lines" xml:space="preserve">
+    <value>Interpreter for all lines</value>
+  </data>
+  <data name="interpreter_to_run_call" xml:space="preserve">
+    <value>Interpreter to run call</value>
+  </data>
+  <data name="number_of_lines_needed" xml:space="preserve">
+    <value>Number of lines needed</value>
+  </data>
+  <data name="other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="local" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <data name="toll_free" xml:space="preserve">
+    <value>Toll Free</value>
+  </data>
+  <data name="replay_number_saved_success" xml:space="preserve">
+    <value>The replay phone numbers have been successfully updated.</value>
+  </data>
+  <data name="default_replay_phone_numbers" xml:space="preserve">
+    <value>Default Replay Numbers</value>
+  </data>
+  <data name="error_sufficient_rights" xml:space="preserve">
+    <value>You do not have sufficient rights to perform that operation.</value>
+  </data>
+  <data name="itfs" xml:space="preserve">
+    <value>ITFS</value>
+  </data>
+  <data name="toll" xml:space="preserve">
+    <value>Toll</value>
+  </data>
+  <data name="choose_one" xml:space="preserve">
+    <value>Choose One</value>
+  </data>
+  <data name="choose_only_companyid_companyname" xml:space="preserve">
+    <value>Please choose to search for either the Company Id or the Company Name.</value>
+  </data>
+  <data name="list_of_replay_numbers" xml:space="preserve">
+    <value>List of Replay Phone Numbers</value>
+  </data>
+  <data name="please_select_a_company_replay" xml:space="preserve">
+    <value>Please select a company first to view the replay phone numbers associated with that company.</value>
+  </data>
+  <data name="business_unit_type" xml:space="preserve">
+    <value>Business Unit Type</value>
+  </data>
+  <data name="enterprise_name" xml:space="preserve">
+    <value>Enterprise Name</value>
+  </data>
+  <data name="dialin_location" xml:space="preserve">
+    <value>Dialin Location</value>
+  </data>
+  <data name="status_level" xml:space="preserve">
+    <value>Status Level</value>
+  </data>
+  <data name="bronze" xml:space="preserve">
+    <value>Bronze</value>
+  </data>
+  <data name="diamond" xml:space="preserve">
+    <value>Diamond</value>
+  </data>
+  <data name="gold" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="platinum" xml:space="preserve">
+    <value>Platinum</value>
+  </data>
+  <data name="silver" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="new_moderator_permissions" xml:space="preserve">
+    <value>New Moderator Permissions</value>
+  </data>
+  <data name="calendar_view" xml:space="preserve">
+    <value>Calendar View</value>
+  </data>
+  <data name="instance_id" xml:space="preserve">
+    <value>Instance Id</value>
+  </data>
+  <data name="select_all" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="unselect_all" xml:space="preserve">
+    <value>Unselect All</value>
+  </data>
+  <data name="outsource" xml:space="preserve">
+    <value>Outsourced</value>
+  </data>
+  <data name="outsource_information" xml:space="preserve">
+    <value>Outsource Information</value>
+  </data>
+  <data name="conference_outsourced" xml:space="preserve">
+    <value>This conference is outsourced</value>
+  </data>
+  <data name="reasons" xml:space="preserve">
+    <value>Reasons</value>
+  </data>
+  <data name="bridge" xml:space="preserve">
+    <value>Bridge</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="listen_only" xml:space="preserve">
+    <value>Listen Only</value>
+  </data>
+  <data name="participant" xml:space="preserve">
+    <value>Participant</value>
+  </data>
+  <data name="silent_server" xml:space="preserve">
+    <value>Silent Server</value>
+  </data>
+  <data name="speaker" xml:space="preserve">
+    <value>Speaker</value>
+  </data>
+  <data name="new_clients_blocked" xml:space="preserve">
+    <value>New Clients Blocked</value>
+  </data>
+  <data name="an_option_must_be_selected" xml:space="preserve">
+    <value>An option must be selected</value>
+  </data>
+  <data name="purpose_must_be_unique" xml:space="preserve">
+    <value>Purpose must be unique</value>
+  </data>
+  <data name="new_instance" xml:space="preserve">
+    <value>New instance</value>
+  </data>
+  <data name="port_assignment_warning" xml:space="preserve">
+    <value>A Company and Conference Type must be selected before Port Assignment can be performed.</value>
+  </data>
+  <data name="supporting_information_required" xml:space="preserve">
+    <value>Supporting Information Required</value>
+  </data>
+  <data name="_default" xml:space="preserve">
+    <value>default</value>
+    <comment>default is a reserved word so an underscore was added to the property name</comment>
+  </data>
+  <data name="available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="attended_call_types" xml:space="preserve">
+    <value>Attended Call Types</value>
+  </data>
+  <data name="available_calltype_save_success" xml:space="preserve">
+    <value>Available call types saved successfully</value>
+  </data>
+  <data name="call_type" xml:space="preserve">
+    <value>Call type</value>
+  </data>
+  <data name="call_types" xml:space="preserve">
+    <value>Call types</value>
+  </data>
+  <data name="default_call_types" xml:space="preserve">
+    <value>Default Call Types</value>
+  </data>
+  <data name="send_confirmation" xml:space="preserve">
+    <value>Send Confirmation</value>
+  </data>
+  <data name="settings_save_success" xml:space="preserve">
+    <value>Setting were successfully saved</value>
+  </data>
+  <data name="confirmation_letter" xml:space="preserve">
+    <value>Confirmation Letter</value>
+  </data>
+  <data name="options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="complete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="error_bridge_scheduling" xml:space="preserve">
+    <value>An error occured while trying to schedule the specified conference.</value>
+  </data>
+  <data name="pending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="please_wait" xml:space="preserve">
+    <value>Please Wait</value>
+  </data>
+  <data name="scheduling_wait_message" xml:space="preserve">
+    <value>Please wait while we schedule the calls</value>
+  </data>
+  <data name="dmms_warning" xml:space="preserve">
+    <value>Changing the DMMS email address will change that email address for the client. This means that the email used to access the recording will be changed at the client level and not just for this recording.</value>
+  </data>
+  <data name="finance_hold_date" xml:space="preserve">
+    <value>Finance Hold Date</value>
+  </data>
+  <data name="add_enhanced_service" xml:space="preserve">
+    <value>Add Enhanced Service</value>
+  </data>
+  <data name="available_enhanced_services_save_success" xml:space="preserve">
+    <value>Available enhanced services saved successfully</value>
+  </data>
+  <data name="confirm_remove_enhanced_service" xml:space="preserve">
+    <value>Are you sure you want to remove the enhanced service {0}?</value>
+  </data>
+  <data name="default_enhanced_service" xml:space="preserve">
+    <value>Default Enhanced Service</value>
+  </data>
+  <data name="enhanced_service" xml:space="preserve">
+    <value>Enhanced Service</value>
+  </data>
+  <data name="enhanced_services" xml:space="preserve">
+    <value>Enhanced Services</value>
+  </data>
+  <data name="select_enhanced_service_to_add" xml:space="preserve">
+    <value>Select Enhanced Service To Add</value>
+  </data>
+  <data name="finance_hold" xml:space="preserve">
+    <value>Finance Hold</value>
+  </data>
+  <data name="non_staffing_related" xml:space="preserve">
+    <value>Non-Staffing Related</value>
+  </data>
+  <data name="total_ports" xml:space="preserve">
+    <value>Total Ports</value>
+  </data>
+  <data name="no_add_time" xml:space="preserve">
+    <value>No-Add Time</value>
+  </data>
+  <data name="no_add_time_save_warning" xml:space="preserve">
+    <value>The conference is currently scheduled during a no-add time. Please verify approval before proceeding.</value>
+  </data>
+  <data name="no_add_time_warning" xml:space="preserve">
+    <value>This conference is scheduled during a no-add time from {0} until {1}. Please make sure that authorization has been given before saving the conference. </value>
+  </data>
+  <data name="bridge_information" xml:space="preserve">
+    <value>Bridge Information</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="conference_count" xml:space="preserve">
+    <value>Conference Count</value>
+  </data>
+  <data name="port_utilization" xml:space="preserve">
+    <value>Port Utilization</value>
+  </data>
+  <data name="add_new_no_add_time" xml:space="preserve">
+    <value>Add New No-Add Time</value>
+  </data>
+  <data name="notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="additional_information" xml:space="preserve">
+    <value>Additional Information</value>
+  </data>
+  <data name="entity_information" xml:space="preserve">
+    <value>Entity Information</value>
+  </data>
+  <data name="entity_search" xml:space="preserve">
+    <value>Entity Search</value>
+  </data>
+  <data name="entity_type" xml:space="preserve">
+    <value>Entity Type</value>
+  </data>
+  <data name="corporate_customer" xml:space="preserve">
+    <value>Corporate Customer</value>
+  </data>
+  <data name="enterprise" xml:space="preserve">
+    <value>Enterprise</value>
+  </data>
+  <data name="provider" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="no_add_time_update_success" xml:space="preserve">
+    <value>No-Add Time was updated successfully.</value>
+  </data>
+  <data name="national_freephone" xml:space="preserve">
+    <value>National Freephone</value>
+  </data>
+  <data name="phone_types" xml:space="preserve">
+    <value>Phone Types</value>
+  </data>
+  <data name="enhanced_services_only" xml:space="preserve">
+    <value>Enhanced Services Only</value>
+  </data>
+  <data name="conference_type" xml:space="preserve">
+    <value>Conference Type</value>
+  </data>
+  <data name="enhanced_services_only_warning" xml:space="preserve">
+    <value>Port assignments are not allowed for conferences of type Enhanced Services Only.</value>
+  </data>
+  <data name="operator_answered_connection" xml:space="preserve">
+    <value>Operator Answered - Connnection</value>
+  </data>
+  <data name="default_phone_types" xml:space="preserve">
+    <value>Default Phone Types</value>
+  </data>
+  <data name="national" xml:space="preserve">
+    <value>National</value>
+  </data>
+  <data name="tollfree_freephone" xml:space="preserve">
+    <value>Tollfree/Freephone</value>
+  </data>
+  <data name="entity_default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="set_by" xml:space="preserve">
+    <value>Set by</value>
+  </data>
+  <data name="all_conferences" xml:space="preserve">
+    <value>All Conferences</value>
+  </data>
+  <data name="asia_pacific" xml:space="preserve">
+    <value>Asia Pacific Region</value>
+  </data>
+  <data name="emea" xml:space="preserve">
+    <value>Europe, the Middle East and Africa Region</value>
+  </data>
+  <data name="north_america" xml:space="preserve">
+    <value>North America Region</value>
+  </data>
+  <data name="end_time" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="start_time" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="additional_notification_emails" xml:space="preserve">
+    <value>Additional Notification Emails</value>
+  </data>
+  <data name="additional_notification_email_instructions" xml:space="preserve">
+    <value>Enter in the email addresses (separated by a comma) that will be notified when this recording is made available.</value>
+  </data>
+  <data name="dmms_instructions" xml:space="preserve">
+    <value>The contact that was selected does not have a DMMS account. In the Email box above, please enter in the email address the client would like to use to access the recordings. Upon saving the conference, a new account will be created and instructions will be sent to the email provided.</value>
+  </data>
+  <data name="upload_file" xml:space="preserve">
+    <value>Upload File</value>
+  </data>
+  <data name="bridge_blocks" xml:space="preserve">
+    <value>Bridge Blocks</value>
+  </data>
+  <data name="all_bridges" xml:space="preserve">
+    <value>All Bridges</value>
+  </data>
+  <data name="upload_success" xml:space="preserve">
+    <value>The file has been successfully uploaded.</value>
+  </data>
+  <data name="generic_delete_error" xml:space="preserve">
+    <value>An error occurred during the delete operation</value>
+  </data>
+  <data name="generic_confirm_delete" xml:space="preserve">
+    <value>Are you sure you wish to delete this item?</value>
+  </data>
+  <data name="conference_locked_warning" xml:space="preserve">
+    <value>Conference was locked for editing on {0} by user: {1}</value>
+  </data>
+  <data name="blocked_ports" xml:space="preserve">
+    <value>Blocked Ports</value>
+  </data>
+  <data name="bridge_block" xml:space="preserve">
+    <value>Bridge Block</value>
+  </data>
+  <data name="conference_lock_not_obtained" xml:space="preserve">
+    <value>Conference lock has not been obtained, please try again.</value>
+  </data>
+  <data name="replay_dates_update_warning" xml:space="preserve">
+    <value>The conference schedule has changed. Please verify that the Replay Enhanced Service dates have been updated.</value>
+  </data>
+  <data name="conference_locks" xml:space="preserve">
+    <value>Conference Locks</value>
+  </data>
+  <data name="locked_by" xml:space="preserve">
+    <value>Locked By</value>
+  </data>
+  <data name="locked_on" xml:space="preserve">
+    <value>Locked On</value>
+  </data>
+  <data name="dial_in_comments" xml:space="preserve">
+    <value>Dialin Comments</value>
+  </data>
+  <data name="dial_out_comments" xml:space="preserve">
+    <value>Dialout Comments</value>
+  </data>
+  <data name="bcc" xml:space="preserve">
+    <value>BCC</value>
+  </data>
+  <data name="cc" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="confirmation_email_addresses" xml:space="preserve">
+    <value>Confirmation Email Addresses</value>
+  </data>
+  <data name="number_of_lines" xml:space="preserve">
+    <value>Number of lines</value>
+  </data>
+  <data name="enhanced_services_search_export" xml:space="preserve">
+    <value>Enhanced_Services_Search_Export</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="translation_needed" xml:space="preserve">
+    <value>Translation Needed</value>
+  </data>
+  <data name="subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="pocc" xml:space="preserve">
+    <value>PO/CC</value>
+  </data>
+  <data name="enter_pocc" xml:space="preserve">
+    <value>Enter POCC</value>
+  </data>
+  <data name="customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="internal_request" xml:space="preserve">
+    <value>Internal</value>
+  </data>
+  <data name="requested_by" xml:space="preserve">
+    <value>Requested By</value>
+  </data>
+  <data name="reason" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="all_phone_numbers_in_use" xml:space="preserve">
+    <value>All available phone numbers for this location are in use</value>
+  </data>
+  <data name="no_bridge_capacity" xml:space="preserve">
+    <value>No available capacity on the bridge for this location</value>
+  </data>
+  <data name="no_phone_numbers" xml:space="preserve">
+    <value>No available phone numbers for this location and phone type</value>
+  </data>
+  <data name="delete_was_successful" xml:space="preserve">
+    <value>Delete was successful</value>
+  </data>
+  <data name="unable_to_delete_values" xml:space="preserve">
+    <value>Unable to delete values</value>
+  </data>
+  <data name="confirmation_email_saved_success" xml:space="preserve">
+    <value>The confirmation email addresses have been successfully updated.</value>
+  </data>
+  <data name="default_values_for_confirmation_emails_cannot_be_set" xml:space="preserve">
+    <value>Default values for confirmation emails cannot be set.</value>
+  </data>
+  <data name="confirmation_instructions" xml:space="preserve">
+    <value>To ensure a successful event, please follow these instructions</value>
+  </data>
+  <data name="confirmation_instructions_1" xml:space="preserve">
+    <value>Review all of this event details and features carefully and contact us immediately if you need to make any adjustments.</value>
+  </data>
+  <data name="confirmation_instructions_2" xml:space="preserve">
+    <value>Forward the meeting details to your speakers as listed in the “Speaker/Presenter Access Information.</value>
+  </data>
+  <data name="confirmation_instructions_3" xml:space="preserve">
+    <value>Forward the meeting details to your participants as listed in the “Participant Access Information” section.</value>
+  </data>
+  <data name="confirmation_pgi_conferencing_reservation" xml:space="preserve">
+    <value>PGi Conferencing Reservation</value>
+  </data>
+  <data name="confirmation_thank_you_for_choosing_pgi" xml:space="preserve">
+    <value>Thank you for choosing PGi to host your Event Conference.</value>
+  </data>
+  <data name="dear" xml:space="preserve">
+    <value>Dear</value>
+  </data>
+  <data name="confirmation_conference_details" xml:space="preserve">
+    <value>Conference Details</value>
+  </data>
+  <data name="host_name" xml:space="preserve">
+    <value>Host Name</value>
+  </data>
+  <data name="conference_title" xml:space="preserve">
+    <value>Conference Title</value>
+  </data>
+  <data name="confirmation_additional_operator" xml:space="preserve">
+    <value>Additional Operator</value>
+  </data>
+  <data name="confirmation_additional_presenters" xml:space="preserve">
+    <value>Additional Presenters</value>
+  </data>
+  <data name="confirmation_event_features" xml:space="preserve">
+    <value>Event Features</value>
+  </data>
+  <data name="confirmation_expidited_reservation" xml:space="preserve">
+    <value>Expedited Reservation</value>
+  </data>
+  <data name="confirmation_host_control_dashboard" xml:space="preserve">
+    <value>Event Host Control Dashboard</value>
+  </data>
+  <data name="confirmation_live_conference_translation" xml:space="preserve">
+    <value>Live Conference Translation</value>
+  </data>
+  <data name="confirmation_participant_access_info" xml:space="preserve">
+    <value>Participant Access Information</value>
+  </data>
+  <data name="confirmation_participant_instructions" xml:space="preserve">
+    <value>Please join the event conference 5-10 minutes prior to the start time using the Conference ID listed below.</value>
+  </data>
+  <data name="confirmation_presenter_access_info" xml:space="preserve">
+    <value>Speaker/Presenter Access Information</value>
+  </data>
+  <data name="confirmation_presenter_instructions" xml:space="preserve">
+    <value>Please dial in for your meeting {0} minutes prior to the scheduled start time using the Conference ID listed below. If you are a speaker/presenter, please alert the Event Conferencing Specialist when you join.</value>
+  </data>
+  <data name="confirmation_q_and_a_instructions" xml:space="preserve">
+    <value>Event Conference Question &amp; Answer Instructions</value>
+  </data>
+  <data name="confirmation_recording_file_format" xml:space="preserve">
+    <value>Recording File Format</value>
+  </data>
+  <data name="confirmation_report_recipient" xml:space="preserve">
+    <value>Audio Replay Participant Report Recipient To</value>
+  </data>
+  <data name="total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="data_export" xml:space="preserve">
+    <value>Data Export</value>
+  </data>
+  <data name="export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="labor_conference" xml:space="preserve">
+    <value>Labor Conference</value>
+  </data>
+  <data name="labor_role" xml:space="preserve">
+    <value>Labor Role</value>
+  </data>
+  <data name="user_session" xml:space="preserve">
+    <value>User Session</value>
+  </data>
+  <data name="defaults" xml:space="preserve">
+    <value>Defaults</value>
+  </data>
+  <data name="title_or_id" xml:space="preserve">
+    <value>Title or Id</value>
+  </data>
+  <data name="invalid_type" xml:space="preserve">
+    <value>Invalid Type</value>
+  </data>
+  <data name="destructive_change_warning" xml:space="preserve">
+    <value>Are you sure you wish to change this value for this conference? This can have a significant impact on the current conference reservation.</value>
+  </data>
+  <data name="conference_type_change_message_remove_capture_information" xml:space="preserve">
+    <value>Due to the change in Conference Type, Capture Information has been removed. Please add the appropriate Enhanced Service</value>
+  </data>
+  <data name="conference_type_change_message_remove_dial_in_locations" xml:space="preserve">
+    <value>Due to the change in Conference Type to Enhanced Services Only, Dial In Locations have been removed</value>
+  </data>
+  <data name="conference_type_change_message_remove_noe" xml:space="preserve">
+    <value>Due to the change in Conference Type, Name on Entry has been removed. Please add the appropriate Enhanced Service</value>
+  </data>
+  <data name="was_removed_because_it_is_not_available" xml:space="preserve">
+    <value>was removed because it is not available</value>
+  </data>
+  <data name="was_removed_because_it_is_not_allowed_for_connection_message" xml:space="preserve">
+    <value>was removed because it is not allowed for Operator Answered - Connection call types</value>
+  </data>
+  <data name="was_removed_because_it_is_not_allowed_for_enhanced_services_message" xml:space="preserve">
+    <value>was removed because it is not allowed for Enhanced Services Only call types</value>
+  </data>
+  <data name="confirmation_event_conference_dial_out" xml:space="preserve">
+    <value>Event Conference Dial-out to Participants</value>
+  </data>
+  <data name="port_assignments_required" xml:space="preserve">
+    <value>Port assignments are required for the conference type specified. Please add port assignments or change the conference type to Enhanced Services Only.</value>
+  </data>
+  <data name="conference_type_change_oa_pce_message_remove_dial_in_locations" xml:space="preserve">
+    <value>Due to the change in Conference Type, Dial In Locations have been removed</value>
+  </data>
+  <data name="was_removed" xml:space="preserve">
+    <value>was removed</value>
+  </data>
+  <data name="call_type_was_removed" xml:space="preserve">
+    <value>Call Type was removed</value>
+  </data>
+  <data name="phone_type_was_removed" xml:space="preserve">
+    <value>Phone Type was removed</value>
+  </data>
+  <data name="answer_line" xml:space="preserve">
+    <value>Answer Line</value>
+  </data>
+  <data name="answer_line_translation" xml:space="preserve">
+    <value>Answer Line Translation</value>
+  </data>
+  <data name="connection_lead" xml:space="preserve">
+    <value>Connection Lead</value>
+  </data>
+  <data name="connection_lead_fully_monitored" xml:space="preserve">
+    <value>Connection Lead Fully Monitored</value>
+  </data>
+  <data name="labor_information" xml:space="preserve">
+    <value>Labor Information</value>
+  </data>
+  <data name="noe_duration_transcriber" xml:space="preserve">
+    <value>NOE Duration Transcriber</value>
+  </data>
+  <data name="noe_transcriber" xml:space="preserve">
+    <value>NOE Transcriber</value>
+  </data>
+  <data name="pce_lead" xml:space="preserve">
+    <value>PCE Lead</value>
+  </data>
+  <data name="polling_lead" xml:space="preserve">
+    <value>Polling Lead</value>
+  </data>
+  <data name="roles" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="this_call_has_pins" xml:space="preserve">
+    <value>This call has PINs</value>
+  </data>
+  <data name="numbers_changed" xml:space="preserve">
+    <value>Numbers Changed</value>
+  </data>
+  <data name="numbers_changed_warning" xml:space="preserve">
+    <value>Some conferences have had number changes.  Please review the items that have changed for the specific conference.</value>
+  </data>
+  <data name="numbers_unassigned" xml:space="preserve">
+    <value>Numbers Unassigned</value>
+  </data>
+  <data name="phone_number_changed" xml:space="preserve">
+    <value>The phone number for this location has changed from {0}.</value>
+  </data>
+  <data name="unassigned_warning" xml:space="preserve">
+    <value>Some conferences have unassigned resources. Please review the items that have changed for the specific conference.</value>
+  </data>
+  <data name="data_cd" xml:space="preserve">
+    <value>Data CD</value>
+  </data>
+  <data name="name_begins_with" xml:space="preserve">
+    <value>Name begins with</value>
+  </data>
+  <data name="phone_number_information" xml:space="preserve">
+    <value>Phone Number Information</value>
+  </data>
+  <data name="requester_information" xml:space="preserve">
+    <value>Requester Information</value>
+  </data>
+  <data name="bridge_events" xml:space="preserve">
+    <value>Bridge Events</value>
+  </data>
+  <data name="no_dialin_lines" xml:space="preserve">
+    <value>No Dial In Lines</value>
+  </data>
+  <data name="number_of_ports" xml:space="preserve">
+    <value>Number of Ports</value>
+  </data>
+  <data name="or" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="cc_bcc" xml:space="preserve">
+    <value>CC/BCC</value>
+  </data>
+  <data name="confirmation_minutes_prior" xml:space="preserve">
+    <value>minutes prior</value>
+  </data>
+  <data name="confirmation_presenter_passcode" xml:space="preserve">
+    <value>Speaker/Presenter Passcode</value>
+  </data>
+  <data name="confirmation_commline" xml:space="preserve">
+    <value>Communications Line</value>
+  </data>
+  <data name="confirmation_contact_info" xml:space="preserve">
+    <value>This email confirms your service request.  If you need to make amendments, you can chat, email or call us at:</value>
+  </data>
+  <data name="confirmation_contact_method" xml:space="preserve">
+    <value>Contact Method</value>
+  </data>
+  <data name="confirmation_end_date_time" xml:space="preserve">
+    <value>End Date/Time</value>
+  </data>
+  <data name="confirmation_polling_voting" xml:space="preserve">
+    <value>Polling/Voting</value>
+  </data>
+  <data name="confirmation_question_answer_session" xml:space="preserve">
+    <value>Question &amp; Answer Session</value>
+  </data>
+  <data name="confirmation_replay_passcode" xml:space="preserve">
+    <value>Replay Passcode</value>
+  </data>
+  <data name="confirmation_replay_phone_numbers" xml:space="preserve">
+    <value>Replay Phone Numbers</value>
+  </data>
+  <data name="confirmation_send_to_emails" xml:space="preserve">
+    <value>Send to Email(s)</value>
+  </data>
+  <data name="confirmation_send_to_name" xml:space="preserve">
+    <value>Send to Name</value>
+  </data>
+  <data name="confirmation_start_date_time" xml:space="preserve">
+    <value>Start Date/Time</value>
+  </data>
+  <data name="ftp" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="enter_password" xml:space="preserve">
+    <value>Enter password</value>
+  </data>
+  <data name="participant_password" xml:space="preserve">
+    <value>Participant password</value>
+  </data>
+  <data name="_override" xml:space="preserve">
+    <value>Override</value>
+  </data>
+  <data name="client_required_fields" xml:space="preserve">
+    <value>Client Required Fields</value>
+  </data>
+  <data name="required" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="required_for_scheduler" xml:space="preserve">
+    <value>Required for scheduler</value>
+  </data>
+  <data name="confirmation_delivery_method" xml:space="preserve">
+    <value>Delivery Method</value>
+  </data>
+  <data name="confirmation_post_conference_participation_report" xml:space="preserve">
+    <value>Post Conference Participant Report</value>
+  </data>
+  <data name="confirmation_report_will_include" xml:space="preserve">
+    <value>Report will include</value>
+  </data>
+  <data name="required_for_additional" xml:space="preserve">
+    <value>Required for additional contact</value>
+  </data>
+  <data name="required_for_moderator" xml:space="preserve">
+    <value>Required for moderator</value>
+  </data>
+  <data name="default_client_fields" xml:space="preserve">
+    <value>Default Client Fields</value>
+  </data>
+  <data name="manual_override_message" xml:space="preserve">
+    <value>This conference has been manually scheduled.  Additional changes will not be automatically scheduled.</value>
+  </data>
+  <data name="lead_bridge" xml:space="preserve">
+    <value>Lead Bridge</value>
+  </data>
+  <data name="hours_after" xml:space="preserve">
+    <value>Hours After</value>
+  </data>
+  <data name="schedule_override" xml:space="preserve">
+    <value>Schedule Override</value>
+  </data>
+  <data name="configure" xml:space="preserve">
+    <value>Configure</value>
+  </data>
+  <data name="new_key" xml:space="preserve">
+    <value>This is a new value</value>
+  </data>
+</root>
