@@ -10,7 +10,7 @@ using System.Reflection;
 [assembly: AssemblyCompanyAttribute("RedFern Ltd")]
 [assembly: AssemblyTitleAttribute("Translatorizer Console")]
 [assembly: AssemblyDescriptionAttribute("RedFern Ltd's Translatorizer")]
-[assembly: AssemblyCopyrightAttribute("Copyright (c) 2015 Redfern Ltd and Scott Hanselman and John Robbins")]
+[assembly: AssemblyCopyrightAttribute("Copyright (c) 2015 Redfern Ltd and Scott Hanselman (https://github.com/shanselman/Psuedoizer) and John Robbins and Gregory Morse (https://github.com/GregoryMorse/ResxTranslator)")]
 
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyTrademark("")]
