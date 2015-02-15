@@ -6,8 +6,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Resources;
-using ResxTranslator;
-using ResxTranslator.Language;
+using TranslatorizerConsole.TranslatableLanguage;
 
 namespace TranslatorizerConsole
 {
