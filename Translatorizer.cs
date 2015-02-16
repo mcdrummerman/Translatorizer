@@ -24,11 +24,14 @@ namespace TranslatorizerConsole
         [STAThread]
         private static void Main(string[] args)
         {
+            Trace.Listeners.Add(new ConsoleTraceListener());
+            
             // !! Make sure to add parmeters to the command line arguments in the Debug section of the project's properties window
             // link: https://msdn.microsoft.com/en-us/library/vstudio/1ktzfy9w%28v=vs.100%29.aspx
             if (args.Length != 2)
             {
                 Trace.WriteLine("File path and language list is required. Less than two parameters were supplied.");
+                return;
             }
 
 
