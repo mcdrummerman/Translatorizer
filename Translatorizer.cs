@@ -55,6 +55,7 @@ namespace TranslatorizerConsole
                 catch (Exception e)
                 {
                     NotifiyAndExit(1, e.Message);
+                    return;
                 }
             }
 
@@ -63,13 +64,12 @@ namespace TranslatorizerConsole
 
         private static void NotifiyAndExit(int exitCode = 0, string message = "")
         {
-            Trace.Write(message + Environment.NewLine + "Press any key...");
 
 #if DEBUG
             Console.Write(message + Environment.NewLine + "Press any key...");
             Console.ReadKey();
 #else
-              Trace.Write(message + Environment.NewLine + "Press any key...");
+              Trace.Write(message);
 #endif
             Environment.Exit(exitCode);
 
