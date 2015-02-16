@@ -26,6 +26,8 @@ namespace TranslatorizerConsole
         {
             Trace.Listeners.Add(new ConsoleTraceListener());
             
+            Trace.WriteLine("Current Directory: " + Environment.CurrentDirectory);
+
             // !! Make sure to add parmeters to the command line arguments in the Debug section of the project's properties window
             // link: https://msdn.microsoft.com/en-us/library/vstudio/1ktzfy9w%28v=vs.100%29.aspx
             if (args.Length != 2)
@@ -46,6 +48,7 @@ namespace TranslatorizerConsole
             if (!File.Exists(fullFilePath))
             {
                 Trace.WriteLine("No file found to translate from.");
+                return;
             }
 
             foreach (var lang in languages)
