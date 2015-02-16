@@ -25,7 +25,7 @@ namespace TranslatorizerConsole
         private static void Main(string[] args)
         {
             Trace.Listeners.Add(new ConsoleTraceListener());
-            
+            Trace.WriteLine("Starting Resx Translations.");
             Trace.WriteLine("Current Directory: " + Environment.CurrentDirectory);
 
             // !! Make sure to add parmeters to the command line arguments in the Debug section of the project's properties window
@@ -64,7 +64,7 @@ namespace TranslatorizerConsole
                     return;
                 }
             }
-            Trace.Write("Done");
+            Trace.Write("Done.");
         }
 
         private static void TranslateSingleFile(Language desiredLangugae, string fileName, string fileSaveName,
