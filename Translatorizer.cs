@@ -28,7 +28,7 @@ namespace TranslatorizerConsole
             // link: https://msdn.microsoft.com/en-us/library/vstudio/1ktzfy9w%28v=vs.100%29.aspx
             if (args.Length != 2)
             {
-                NotifiyAndExit(1,"File path and language list is required. Less than two parameters were supplied.");
+                Trace.WriteLine("File path and language list is required. Less than two parameters were supplied.");
             }
 
 
@@ -42,7 +42,7 @@ namespace TranslatorizerConsole
 
             if (!File.Exists(fullFilePath))
             {
-                NotifiyAndExit(1, "No file found to translate from.");
+                Trace.WriteLine("No file found to translate from.");
             }
 
             foreach (var lang in languages)
@@ -54,25 +54,11 @@ namespace TranslatorizerConsole
                 }
                 catch (Exception e)
                 {
-                    NotifiyAndExit(1, e.Message);
+                    Trace.Write(e.Message);
                     return;
                 }
             }
-
-            NotifiyAndExit(message: "Done");
-        }
-
-        private static void NotifiyAndExit(int exitCode = 0, string message = "")
-        {
-
-#if DEBUG
-            Console.Write(message + Environment.NewLine + "Press any key...");
-            Console.ReadKey();
-#else
-              Trace.Write(message);
-#endif
-            Environment.Exit(exitCode);
-
+            Trace.Write("Done");
         }
 
         private static void TranslateSingleFile(Language desiredLangugae, string fileName, string fileSaveName,
@@ -145,7 +131,7 @@ namespace TranslatorizerConsole
                     }
                     catch (FileNotFoundException)
                     {
-                        Trace.WriteLine(fileSaveName + " not found.");
+                        Trace.WriteLine(fileSaveName + " not found. New file will be created.");
                     }
 
                     // Create the new file.
