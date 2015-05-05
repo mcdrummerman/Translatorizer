@@ -104,8 +104,8 @@ namespace TranslatorizerConsole
                         // Make sure the key name does not start with the
                         // "$" or ">>" meta characters and is not an empty
                         // string (or we're explicitly including empty strings).
-                        if ((false == keyString.StartsWith(">>")) &&
-                            (false == keyString.StartsWith("$")) &&
+                        if ((!keyString.StartsWith(">>")) &&
+                            (!keyString.StartsWith("$")) &&
                             (includeBlankResources || "" != dic.Value.ToString()))
                         {
                             // We've got a winner.
@@ -114,7 +114,7 @@ namespace TranslatorizerConsole
 
                         // Special case the Windows Form "$this.Text" or
                         // I don't get the form titles.
-                        if (0 == string.CompareOrdinal(keyString, "$this.Text"))
+                        if (string.CompareOrdinal(keyString, "$this.Text") == 0)
                         {
                             textResourcesList.Add(dic.Key, dic.Value);
                         }
@@ -126,7 +126,7 @@ namespace TranslatorizerConsole
             // .ResX file.
             if (textResourcesList.Count > 0)
             {
-                if (null != fileSaveName)
+                if (fileSaveName != null)
                 {
                     Dictionary<string, string> existingEntries = null;
                     try
