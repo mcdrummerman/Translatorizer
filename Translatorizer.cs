@@ -96,7 +96,7 @@ namespace TranslatorizerConsole
             {
                 // Get the enumerator.  If this throws an ArguementException
                 // it means the file is not a .RESX file.
-                var enumerator = reader.GetEnumerator();
+                reader.GetEnumerator();
             }
             catch (ArgumentException ex)
             {
