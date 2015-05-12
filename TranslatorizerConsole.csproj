@@ -87,6 +87,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -99,6 +103,7 @@
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Enums\TranlsationInputFileType.cs" />
     <Compile Include="TranslatableLanguage\Enumeration.cs" />
     <Compile Include="TranslatableLanguage\Enumeration.Generic.cs" />
     <Compile Include="TranslatableLanguage\Language.cs" />
@@ -111,9 +116,13 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="LICENSE" />
+    <None Include="packages.config" />
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ResxFiles_Test\jsonfile.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="ResxFiles_Test\Language.resx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

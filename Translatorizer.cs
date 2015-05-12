@@ -6,6 +6,8 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Resources;
+using Newtonsoft.Json;
+using TranslatorizerConsole.Enums;
 using TranslatorizerConsole.TranslatableLanguage;
 
 namespace TranslatorizerConsole
@@ -30,16 +32,25 @@ namespace TranslatorizerConsole
 
             // !! Make sure to add parameters to the command line arguments in the Debug section of the project's properties window
             // link: https://msdn.microsoft.com/en-us/library/vstudio/1ktzfy9w%28v=vs.100%29.aspx
-            if (args.Length != 2)
+            if (args.Length < 2)
             {
                 Trace.WriteLine("File path and language list is required. Less than two parameters were supplied.");
                 return;
             }
 
+            var type = string.Empty;
+            TranlsationInputFileType inputType;
+            if (args.Length == 3)
+            {
+                type = args[2];
+            }
+
+            // will default to Resx if fails
+            Enum.TryParse(value: type, ignoreCase: true, result: out inputType);
 
             var languageCodes = args[1].Split(',');
             var languages = Language.TranslatableCollection.Where(available =>
-                languageCodes.Any(code => String.Equals(code, available.Value.ToString(CultureInfo.InvariantCulture), StringComparison.CurrentCultureIgnoreCase)));
+                languageCodes.Any(code => string.Equals(code, available.Value.ToString(CultureInfo.InvariantCulture), StringComparison.CurrentCultureIgnoreCase)));
 
             var filePath = Path.GetDirectoryName(args[0]);
             var resourceFileName = Path.GetFileName(args[0]);
@@ -56,7 +67,15 @@ namespace TranslatorizerConsole
                 var translatedFile = Path.Combine(filePath, "Language." + lang.Value + ".resx");
                 try
                 {
-                    TranslateSingleFile(lang, fullFilePath, translatedFile, false);
+                    switch (inputType)
+                    {
+                        case TranlsationInputFileType.Resx:
+                            TranslateSingleFileFromResx(lang, fullFilePath, translatedFile, false);
+                            break;
+                        case TranlsationInputFileType.Json:
+                            TranslateSingleFileFromJson(lang, fullFilePath, translatedFile);
+                            break;
+                    }
                 }
                 catch (Exception e)
                 {
@@ -67,11 +86,11 @@ namespace TranslatorizerConsole
             Trace.Write("Done.");
         }
 
-        private static void TranslateSingleFile(Language desiredLangugae, string fileName, string fileSaveName,
+        private static void TranslateSingleFileFromResx(Language desiredLanguage, string filePath, string fileSavePath,
             bool includeBlankResources)
         {
             // Open the input file.
-            var reader = new ResXResourceReader(fileName);
+            var reader = new ResXResourceReader(filePath);
 
             try
             {
@@ -81,13 +100,13 @@ namespace TranslatorizerConsole
             }
             catch (ArgumentException ex)
             {
-                Trace.WriteLine("WARNING: could not parse " + fileName);
+                Trace.WriteLine("WARNING: could not parse " + filePath);
                 Trace.WriteLine("         " + ex.Message);
                 return;
             }
 
             // Allocate the list for this instance.
-            var textResourcesList = new SortedList();
+            var textResourcesList = new SortedDictionary<object, object>();
 
             // Run through the file looking for only true text related
             // properties and only those with values set.
@@ -122,37 +141,71 @@ namespace TranslatorizerConsole
                 }
             }
 
+            WriteToResx(textResourcesList, desiredLanguage, filePath, fileSavePath);
+        }
+
+        private static void TranslateSingleFileFromJson(Language desiredLanguage, string filePath, string fileSavePath)
+        {
+            // Open the input file.
+            var json = File.ReadAllText(filePath);
+
+            IDictionary<object, object> dictionary = null;
+
+            try
+            {
+                dictionary = JsonConvert.DeserializeObject<IDictionary<object, object>>(json);
+            }
+            catch (ArgumentException ex)
+            {
+                Trace.WriteLine("WARNING: could not parse " + filePath);
+                Trace.WriteLine("         " + ex.Message);
+                return;
+            }
+
+            WriteToResx(dictionary, desiredLanguage, filePath, fileSavePath);
+        }
+
+        private static void WriteToResx(IDictionary<object, object> entries, Language desiredLanguage, string filePath, string fileSavePath)
+        {
             // It's entirely possible that there are no text strings in the
             // .ResX file.
-            if (textResourcesList.Count > 0)
+            if (entries.Count > 0)
             {
-                if (fileSaveName != null)
+                if (fileSavePath != null)
                 {
                     Dictionary<string, string> existingEntries = null;
                     try
                     {
-                        existingEntries = new ResXResourceReader(fileSaveName)
+                        existingEntries = new ResXResourceReader(fileSavePath)
                             .Cast<DictionaryEntry>()
                             .ToDictionary(k => k.Key.ToString(), v => v.Value.ToString());
                     }
                     catch (FileNotFoundException)
                     {
-                        Trace.WriteLine(fileSaveName + " not found. New file will be created.");
+                        Trace.WriteLine(fileSavePath + " not found. New file will be created.");
                     }
 
                     // Create the new file.
-                    var writer = new ResXResourceWriter(fileSaveName);
+                    var writer = new ResXResourceWriter(fileSavePath);
 
-                    foreach (DictionaryEntry languageEntry in textResourcesList)
+                    foreach (var languageEntry in entries)
                     {
                         var key = languageEntry.Key.ToString();
 
                         if (existingEntries == null ||
-                            !existingEntries.Any(entry => entry.Key.ToString(CultureInfo.InvariantCulture) == languageEntry.Key.ToString()))
+                            // ReSharper disable SimplifyLinqExpression
+                            !existingEntries.Any(entry =>
+                                entry.Key.ToString(CultureInfo.InvariantCulture) == languageEntry.Key.ToString()))
+                        // ReSharper restore SimplifyLinqExpression
                         {
+                            var translate = desiredLanguage != Language.English;
+
+                            var value = translate
+                                ? Translator.Translate(desiredLanguage, languageEntry.Value.ToString())
+                                : languageEntry.Value.ToString();
+
                             // does not exist try to translate it and add to the file
-                            writer.AddResource(languageEntry.Key.ToString(),
-                                Translator.Translate(desiredLangugae, languageEntry.Value.ToString()));
+                            writer.AddResource(languageEntry.Key.ToString(), value);
                         }
                         else
                         {
@@ -167,7 +220,7 @@ namespace TranslatorizerConsole
             }
             else
             {
-                Trace.WriteLine("WARNING: No text resources found in " + fileName);
+                Trace.WriteLine("WARNING: No text resources found in " + filePath);
             }
         }
     }
