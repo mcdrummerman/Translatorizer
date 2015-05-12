@@ -165,6 +165,13 @@ namespace TranslatorizerConsole
             WriteToResx(dictionary, desiredLanguage, filePath, fileSavePath);
         }
 
+        /// <summary>
+        /// Write to the Resx file
+        /// </summary>
+        /// <param name="entries"></param>
+        /// <param name="desiredLanguage"></param>
+        /// <param name="filePath"></param>
+        /// <param name="fileSavePath"></param>
         private static void WriteToResx(IDictionary<object, object> entries, Language desiredLanguage, string filePath, string fileSavePath)
         {
             // It's entirely possible that there are no text strings in the
@@ -198,6 +205,8 @@ namespace TranslatorizerConsole
                                 entry.Key.ToString(CultureInfo.InvariantCulture) == languageEntry.Key.ToString()))
                         // ReSharper restore SimplifyLinqExpression
                         {
+                            // We assume the input file is english if the desired langugae is english we are just writing to the 
+                            // file with no tranlsation
                             var translate = desiredLanguage != Language.English;
 
                             var value = translate
