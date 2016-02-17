@@ -388,6 +388,11 @@ namespace TranslatorizerConsole.TranslatableLanguage
         public static readonly Language Spanish = new Language("Spanish", "es");
 
         /// <summary>
+        /// The Spanish.
+        /// </summary>
+        public static readonly Language SpanishUs = new Language("SpanisUs", "es-US");
+
+        /// <summary>
         /// The Swahili.
         /// </summary>
         public static readonly Language Swahili = new Language("Swahili", "sw");
@@ -510,6 +515,7 @@ namespace TranslatorizerConsole.TranslatableLanguage
                     Romanian,
                     Russian,
                     Spanish,
+                    SpanishUs,
                     Serbian,
                     Slovak,
                     Slovenian,
